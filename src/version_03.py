@@ -10,9 +10,10 @@ def calc_v3(x, y):
         else:
             return 0
     else:
-        result = np.zeros_like(x)
+        result = np.full_like(x, 0)
         mask = (x != 0) & (y != 0)
-        result[mask] = np.where(x[mask] != 0, np.power(x[mask], -((x[mask]**2)+(y[mask]**2))), 0)
+        # Add a small constant to the exponent to avoid large negative values
+        result[mask] = np.where(x[mask] != 0, 1 / np.power(x[mask], ((x[mask]**2)+(y[mask]**2)) + 1e-9), 0)
         return result
     
 try:
