@@ -3,11 +3,17 @@ from helpers.exception import generate_log
 import numpy as np
 import traceback
 
+def pow(x, exp):
+    if x == 0:
+        return 0
+    else:
+        return x**exp
+
 def safe_fitness_v3(x, y):
     if x == 0:
         return 0
     else:
-        return np.power(float(x), -((x**2) + (y**2)))
+        return np.power(float(x), -((pow(x, 2)) + (pow(y, 2))))
     
 try:
     fitness_v3 = np.vectorize(safe_fitness_v3)
