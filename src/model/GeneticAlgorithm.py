@@ -6,7 +6,7 @@ import random
 import os
 
 class GeneticAlgorithm:
-    def __init__(self, size, n_generations, n_childrens, mutation, fitness, interval, for_max=True):
+    def __init__(self, size, n_generations, n_childrens, mutation, fitness, interval, for_max=True, version=None):
         self.size = size
         self.n_generations = n_generations
         self.n_childrens = n_childrens
@@ -20,6 +20,9 @@ class GeneticAlgorithm:
         self.fitness_avgs = []
         self.fitness_max = []
         self.fitness_min = []
+
+        self.version = version
+        self.results_file_path = f'docs/results_{version}.md' if version else 'docs/results.md'
 
     def evaluate(self, x, y):
         return self.fitness(x, y)
@@ -133,18 +136,6 @@ class GeneticAlgorithm:
 
             n += 1
 
-    def check_individual_best(self, count_generations):
-        pos_best = len(self.population) - 1
-        max_fit = max(self.population, key=lambda x:x[2])[2]
-        min_fit = min(self.population, key=lambda x:x[2])[2]
-        avg = self.avg_fitness()
-        
-        self.fitness_avgs.append(avg)
-        self.fitness_max.append(max_fit)
-        self.fitness_min.append(min_fit)
-
-        self.save_doc(pos_best, max_fit, min_fit, avg, count_generations)
-
     def avg_fitness(self):
         sum_fitness = sum(individual[2] for individual in self.population)
 
@@ -175,21 +166,34 @@ class GeneticAlgorithm:
         plt.legend()
         plt.show()
 
+    def check_individual_best(self, count_generations):
+        pos_best = len(self.population) - 1
+        max_fit = max(self.population, key=lambda x:x[2])[2]
+        min_fit = min(self.population, key=lambda x:x[2])[2]
+        avg = self.avg_fitness()
+        
+        self.fitness_avgs.append(avg)
+        self.fitness_max.append(max_fit)
+        self.fitness_min.append(min_fit)
+
+        self.save_doc(pos_best, max_fit, min_fit, avg, count_generations)
+
     def init_results_file(self):
-        results_file_path = 'docs/results.md'
-
-        if os.path.exists(results_file_path):
-            os.remove(results_file_path)
-
-        with open('docs/base/base.md', 'r') as file:
+        if os.path.exists(self.results_file_path):
+            os.remove(self.results_file_path)
+        
+        
+        with open('docs/base/base.md', 'r', encoding='utf-8') as file:
             header = file.read()
 
-        with open(results_file_path, 'w', encoding='utf-8') as file:
+        header += f': Versão {self.version} \n\n' if(self.version) else '\n\n'
+
+        with open(self.results_file_path, 'w', encoding='utf-8') as file:
             file.write(header)
 
     def save_doc(self, pos_best, max_fit, min_fit, avg, count_generations):
         population_table = pd.DataFrame(self.population, columns=['x', 'y', 'fitness']).to_html()
-        results_md = f'<h2>{count_generations}ª Geração:</h2>'
+        results_md = f'<h2>{count_generations}ª Geração:</h2>' + '\n\n'
         results_md += population_table
         results_md += f'<b>Tamanho da população: </b>{str(len(self.population))} <br>'
         results_md += f'<b>O melhor individuo: </b><br>'
@@ -200,7 +204,7 @@ class GeneticAlgorithm:
         results_md += f'<b>O menor fitness: </b>{min_fit}<br>'
         results_md += f'<b>Média fitness: </b>{avg}<br><hr>'
 
-        with open('docs/results.md', 'a', encoding='utf-8') as file:
+        with open(self.results_file_path, 'a', encoding='utf-8') as file:
             file.write(results_md)
 
     def init(self):
@@ -209,7 +213,6 @@ class GeneticAlgorithm:
         self.init_results_file()
 
         while count_generations <= self.n_generations:
-            print(f'Geração {count_generations}º:')
             self.childrens = []
             self.generate()
             self.population = self.population + self.childrens
@@ -222,4 +225,5 @@ class GeneticAlgorithm:
             self.check_individual_best(count_generations)
             count_generations += 1
 
+        print(f'Gerado arquivo com resultados em: {self.results_file_path}\n')
         self.plot_fitness()

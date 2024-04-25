@@ -11,6 +11,7 @@ def main():
 
     try:
         version_01(size, n_childrens, n_generations)
+        version_02(size, n_childrens, n_generations)
 
     except Exception as e:
         print(f'Ocorreu um erro:\n{e}\nÉ possivel visualizar mais detalhes em: error_log.txt\n')

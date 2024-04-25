@@ -11,7 +11,7 @@ def version_01(size, n_childrens, n_generations):
     try:
         fitness_v1 = lambda x1, x2: 837.9658 - calc_xi(x1) - calc_xi(x2)
 
-        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-500, 500], fitness=fitness_v1, for_max=False)
+        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-500, 500], fitness=fitness_v1, for_max=False, version='01')
         algorithm.init()
 
     except Exception as e:

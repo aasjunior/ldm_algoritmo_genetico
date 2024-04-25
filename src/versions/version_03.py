@@ -17,7 +17,7 @@ def version_03(size, n_childrens, n_generations):
     try:
         fitness_v3 = np.vectorize(safe_fitness_v3)
         
-        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-2, 2], fitness=fitness_v3, for_max=True)
+        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-2, 2], fitness=fitness_v3, for_max=True, version='03')
         algorithm.init()
 
     except Exception as e:
