@@ -1,11 +1,11 @@
 from model.GeneticAlgorithm import GeneticAlgorithm
 import numpy as np
 
-def pow(x, exp):
-    if x == 0:
+def pow(n, exp):
+    if n == 0:
         return 0
     else:
-        return x**exp
+        return n**exp
 
 def safe_fitness_v3(x, y):
     if x == 0:
