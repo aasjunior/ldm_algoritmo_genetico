@@ -1,7 +1,9 @@
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import random
+import os
 
 class GeneticAlgorithm:
     def __init__(self, size, n_generations, n_childrens, mutation, fitness, interval, for_max=True):
@@ -133,23 +135,15 @@ class GeneticAlgorithm:
 
     def check_individual_best(self):
         pos_best = len(self.population) - 1
-        avg = self.avg_fitness()
         max_fit = max(self.population, key=lambda x:x[2])[2]
         min_fit = min(self.population, key=lambda x:x[2])[2]
+        avg = self.avg_fitness()
         
-        print(f'TAMANHO POPULAÇÃO {len(self.population)}')
-        print(self.population)
-        print('O melhor individuo: ')
-        print('x = ', self.population[pos_best][0])
-        print('y = ', self.population[pos_best][1])
-        print('fitness = ', self.population[pos_best][2])
-        print('maior fitness = ', max_fit)
-        print('menor fitness = ', min_fit)
-        print(f'média fitness = {avg}\n')
-
         self.fitness_avgs.append(avg)
         self.fitness_max.append(max_fit)
         self.fitness_min.append(min_fit)
+
+        self.save_doc(pos_best, max_fit, min_fit, avg)
 
     def avg_fitness(self):
         sum_fitness = sum(individual[2] for individual in self.population)
@@ -181,9 +175,46 @@ class GeneticAlgorithm:
         plt.legend()
         plt.show()
 
+    def print_results(self, pos_best, max_fit, min_fit, avg):
+        
+
+    def init_results_file(self):
+        # Caminho para o arquivo results.html
+        results_file_path = 'docs/results.html'
+
+        # Verificar se o arquivo existe e removê-lo
+        if os.path.exists(results_file_path):
+            os.remove(results_file_path)
+
+        with open('docs/base/header.html', 'r') as file:
+            header = file.read()
+
+        with open(results_file_path, 'w') as file:
+            file.write(header)
+
+    def save_doc(self, pos_best, max_fit, min_fit, avg):
+        population_table = pd.DataFrame(self.population, columns=['x', 'y', 'fitness']).to_html()
+        best_individual = f"""
+            <p>
+                x = {self.population[pos_best][0]}, y = {self.population[pos_best][1]}, fitness = {self.population[pos_best][2]}
+            </p>
+        """
+        fitness_stats = f"""
+            <p>
+                maior fitness = {max_fit}, menor fitness = {min_fit}, média fitness = {avg}
+            </p>
+            <hr>
+        """
+
+        results_html = population_table + best_individual + fitness_stats
+
+        with open('docs/results.html', 'a') as file:
+            file.write(results_html)
 
     def init(self):
         count_generations = 1
+
+        self.init_results_file()
 
         while count_generations <= self.n_generations:
             print(f'Geração {count_generations}º:')
@@ -200,3 +231,8 @@ class GeneticAlgorithm:
             count_generations += 1
 
         self.plot_fitness()
+
+        with open('docs/base/footer.html', 'r') as file:
+            footer = file.read()
+        with open('docs/results.html', 'a') as file:
+            file.write(footer)
