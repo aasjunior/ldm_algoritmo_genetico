@@ -1,22 +1,21 @@
-[2024-04-24 20:54:59] Ocorreu um erro:
+[2024-04-25 00:06:16] Ocorreu um erro:
 exceptions must derive from BaseException
 Traceback (most recent call last):
   File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\versions\version_01.py", line 15, in version_01
     algorithm.init()
-  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\model\GeneticAlgorithm.py", line 217, in init
+  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\model\GeneticAlgorithm.py", line 222, in init
     self.check_individual_best()
-  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\model\GeneticAlgorithm.py", line 145, in check_individual_best
+  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\model\GeneticAlgorithm.py", line 146, in check_individual_best
     self.save_doc(pos_best, max_fit, min_fit, avg)
-  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\model\GeneticAlgorithm.py", line 192, in save_doc
-    with open('base.html', 'r') as file:
-         ^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'base.html'
+  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\model\GeneticAlgorithm.py", line 193, in save_doc
+    results_md += {population_table}
+TypeError: can only concatenate str (not "set") to str
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\main.py", line 12, in main
-    version_01()
+  File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\main.py", line 13, in main
+    version_01(size, n_childrens, n_generations)
   File "E:\adeld\PythonProjects\ldm_algoritmo_genetico\src\versions\version_01.py", line 18, in version_01
     raise f'Erro na execução da versão 01:\n{e}\n'
 TypeError: exceptions must derive from BaseException
