@@ -2,7 +2,7 @@
 
 <h2>1ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-1.0<br><b>Média fitness: </b>0.355078125<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -14,21 +14,21 @@
   <tbody>
     <tr>
       <th>0</th>
+      <td>-1</td>
       <td>-2</td>
-      <td>1</td>
-      <td>-0.03125</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>-2</td>
-      <td>1</td>
+      <td>-1</td>
       <td>-0.03125</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>3</th>
@@ -45,14 +45,14 @@
     <tr>
       <th>5</th>
       <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>7</th>
@@ -63,43 +63,176 @@
     <tr>
       <th>8</th>
       <td>2</td>
-      <td>-2</td>
-      <td>0.00390625</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2</td>
-      <td>2</td>
-      <td>0.00390625</td>
-    </tr>
-    <tr>
-      <th>10</th>
       <td>2</td>
       <td>1</td>
       <td>0.03125</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>10</th>
       <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>-2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>13</th>
       <td>1</td>
-      <td>-2</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>14</th>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>1</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table></br><hr><h2>2ª Geração:</h2>
+
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.4099609375<br><br><b>População:</b><br><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+      <th>fitness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>-2</td>
+      <td>2</td>
+      <td>0.00390625</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>-2</td>
+      <td>0</td>
+      <td>0.0625</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>-2</td>
+      <td>0</td>
+      <td>0.0625</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
@@ -116,7 +249,7 @@
     </tr>
     <tr>
       <th>17</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
@@ -128,14 +261,14 @@
     </tr>
     <tr>
       <th>19</th>
-      <td>1</td>
       <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.4021484375<br><hr><h2>2ª Geração:</h2>
+</table></br><hr><h2>3ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-1.0<br><b>Média fitness: </b>0.3126953125<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -147,109 +280,109 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-2</td>
-      <td>1</td>
-      <td>-0.03125</td>
+      <td>-1</td>
+      <td>2</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-1</td>
+      <td>2</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>3</th>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>0</td>
-      <td>0</td>
+      <td>2</td>
       <td>0</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>2</td>
-      <td>-2</td>
-      <td>0.00390625</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>-2</td>
-      <td>2</td>
-      <td>0.00390625</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>-2</td>
-      <td>-2</td>
-      <td>0.00390625</td>
-    </tr>
-    <tr>
-      <th>11</th>
       <td>2</td>
       <td>1</td>
       <td>0.03125</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>9</th>
       <td>-2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>10</th>
+      <td>-2</td>
+      <td>0</td>
+      <td>0.0625</td>
+    </tr>
+    <tr>
+      <th>11</th>
       <td>2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
+      <th>12</th>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
       <th>14</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
@@ -261,14 +394,14 @@
     </tr>
     <tr>
       <th>19</th>
-      <td>1</td>
       <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.3068359375<br><hr><h2>3ª Geração:</h2>
+</table></br><hr><h2>4ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-1.0<br><b>Média fitness: </b>0.2158203125<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -280,27 +413,27 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-2</td>
-      <td>1</td>
-      <td>-0.03125</td>
+      <td>-1</td>
+      <td>2</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>-1</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>4</th>
@@ -310,35 +443,35 @@
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>9</th>
       <td>-2</td>
       <td>-2</td>
       <td>0.00390625</td>
     </tr>
     <tr>
+      <th>6</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2</td>
+      <td>1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
       <th>10</th>
       <td>-2</td>
       <td>0</td>
@@ -346,62 +479,62 @@
     </tr>
     <tr>
       <th>11</th>
+      <td>-2</td>
+      <td>0</td>
+      <td>0.0625</td>
+    </tr>
+    <tr>
+      <th>12</th>
       <td>2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>13</th>
       <td>-2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
       <th>14</th>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
       <td>1</td>
-      <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
       <td>-1</td>
-      <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>18</th>
       <td>1</td>
-      <td>-1</td>
+      <td>2</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>19</th>
+      <td>-1</td>
       <td>1</td>
-      <td>0</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.3580078125<br><hr><h2>4ª Geração:</h2>
+</table></br><hr><h2>5ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-1.0<br><b>Média fitness: </b>0.212890625<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -413,261 +546,128 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-2</td>
-      <td>1</td>
-      <td>-0.03125</td>
+      <td>-1</td>
+      <td>2</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>-1</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-1.0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
+      <td>-2</td>
       <td>-1</td>
-      <td>0</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>8</th>
       <td>-2</td>
       <td>-2</td>
       <td>0.00390625</td>
     </tr>
     <tr>
-      <th>9</th>
-      <td>-2</td>
-      <td>0</td>
-      <td>0.0625</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>-2</td>
-      <td>0</td>
-      <td>0.0625</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>1</td>
-      <td>0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>1</td>
-      <td>-1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>-1</td>
-      <td>-1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>1</td>
-      <td>-1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>1</td>
-      <td>0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>1</td>
-      <td>0</td>
-      <td>1.0</td>
-    </tr>
-  </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.4548828125<br><hr><h2>5ª Geração:</h2>
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>x</th>
-      <th>y</th>
-      <th>fitness</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>6</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>-2</td>
-      <td>0</td>
-      <td>0.0625</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>9</th>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>10</th>
       <td>-2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
-      <th>10</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
       <th>11</th>
-      <td>1</td>
+      <td>-2</td>
       <td>0</td>
-      <td>1.0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1.0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>1</td>
-      <td>-1</td>
-      <td>1.0</td>
+      <td>-2</td>
+      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>-1</td>
-      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>1</td>
+      <td>-1</td>
       <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>18</th>
       <td>1</td>
-      <td>0</td>
+      <td>2</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>1</td>
+      <td>-1</td>
       <td>1</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>0<br><b>Média fitness: </b>0.50625<br><hr><h2>6ª Geração:</h2>
+</table></br><hr><h2>6ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.5083984375<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -691,45 +691,45 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0</td>
+      <td>2</td>
       <td>-1</td>
-      <td>0</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>8</th>
+      <td>2</td>
       <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>9</th>
@@ -740,67 +740,67 @@
     <tr>
       <th>10</th>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>-1</td>
-      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>13</th>
+      <td>-1</td>
       <td>1</td>
-      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>14</th>
       <td>1</td>
-      <td>1</td>
+      <td>2</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
+      <td>-1</td>
       <td>1</td>
-      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>1</td>
       <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>18</th>
       <td>1</td>
-      <td>1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>1</td>
-      <td>0</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.5<br><hr><h2>7ª Geração:</h2>
+</table></br><hr><h2>7ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.55390625<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -818,104 +818,104 @@
     </tr>
     <tr>
       <th>1</th>
-      <td>0</td>
+      <td>-2</td>
       <td>-1</td>
-      <td>0</td>
+      <td>-0.03125</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>7</th>
+      <td>2</td>
+      <td>1</td>
+      <td>0.03125</td>
+    </tr>
+    <tr>
+      <th>8</th>
       <td>-2</td>
       <td>0</td>
       <td>0.0625</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>1</td>
-      <td>0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
       <th>9</th>
-      <td>-1</td>
-      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>11</th>
       <td>1</td>
-      <td>0</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>1</td>
+      <td>-1</td>
       <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>13</th>
       <td>1</td>
-      <td>-1</td>
+      <td>2</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>14</th>
+      <td>-1</td>
       <td>1</td>
-      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>1</td>
-      <td>1</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>1</td>
-      <td>0</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
@@ -931,9 +931,9 @@
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.6015625<br><hr><h2>8ª Geração:</h2>
+</table></br><hr><h2>8ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.5537109375<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -963,39 +963,39 @@
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>7</th>
+      <td>-2</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>8</th>
+      <td>2</td>
       <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>9</th>
@@ -1011,31 +1011,31 @@
     </tr>
     <tr>
       <th>11</th>
-      <td>1</td>
+      <td>-1</td>
       <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>1</td>
       <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>1</td>
-      <td>0</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>14</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
@@ -1060,13 +1060,13 @@
     <tr>
       <th>19</th>
       <td>1</td>
-      <td>1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.5453125<br><hr><h2>9ª Geração:</h2>
+</table></br><hr><h2>9ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>-1</li><li><b>y: </b>-1</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.6021484375<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1085,7 +1085,7 @@
     <tr>
       <th>1</th>
       <td>-2</td>
-      <td>-1</td>
+      <td>1</td>
       <td>-0.03125</td>
     </tr>
     <tr>
@@ -1096,55 +1096,55 @@
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>6</th>
+      <td>-2</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>7</th>
+      <td>2</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>9</th>
       <td>-1</td>
-      <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>10</th>
       <td>1</td>
-      <td>1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
@@ -1163,43 +1163,43 @@
     <tr>
       <th>14</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
       <td>1</td>
-      <td>0</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>18</th>
       <td>1</td>
-      <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>1</td>
-      <td>0</td>
+      <td>-1</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.5453125<br><hr><h2>10ª Geração:</h2>
+</table></br><hr><h2>10ª Geração:</h2>
 
-<table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.6017578125<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1235,49 +1235,49 @@
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>-2</td>
+      <td>-2</td>
+      <td>0.00390625</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>2</td>
+      <td>-1</td>
+      <td>0.03125</td>
     </tr>
     <tr>
       <th>6</th>
+      <td>-2</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>7</th>
+      <td>-2</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>0.0625</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>0</td>
       <td>-1</td>
-      <td>0</td>
+      <td>1</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>0</td>
       <td>-1</td>
-      <td>0</td>
+      <td>1</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>10</th>
+      <td>1</td>
       <td>0</td>
-      <td>-1</td>
-      <td>0</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>-1</td>
+      <td>1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
@@ -1290,37 +1290,37 @@
     <tr>
       <th>13</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>14</th>
       <td>1</td>
-      <td>-1</td>
+      <td>0</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>15</th>
       <td>1</td>
-      <td>0</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>16</th>
       <td>1</td>
-      <td>-1</td>
+      <td>1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>1</td>
+      <td>-1</td>
       <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
       <th>18</th>
       <td>1</td>
-      <td>0</td>
+      <td>-1</td>
       <td>1.0</td>
     </tr>
     <tr>
@@ -1330,4 +1330,4 @@
       <td>1.0</td>
     </tr>
   </tbody>
-</table><b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>1</li><li><b>y: </b>0</li><li><b>fitness: </b>1.0</li></ul><b>O maior fitness: </b>1.0<br><b>O menor fitness: </b>-0.03125<br><b>Média fitness: </b>0.44375<br><hr>
+</table></br><hr>

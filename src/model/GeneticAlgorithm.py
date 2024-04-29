@@ -401,7 +401,6 @@ class GeneticAlgorithm:
         """
         population_table = pd.DataFrame(self.population, columns=['x', 'y', 'fitness']).to_html()
         results_md = f'<h2>{count_generations}ª Geração:</h2>' + '\n\n'
-        results_md += population_table
         results_md += f'<b>Tamanho da população: </b>{str(len(self.population))} <br>'
         results_md += f'<b>O melhor individuo: </b><br>'
         results_md += f'<ul><li><b>x: </b>{self.population[pos_best][0]}</li>'
@@ -409,7 +408,8 @@ class GeneticAlgorithm:
         results_md += f'<li><b>fitness: </b>{self.population[pos_best][2]}</li></ul>'
         results_md += f'<b>O maior fitness: </b>{max_fit}<br>'
         results_md += f'<b>O menor fitness: </b>{min_fit}<br>'
-        results_md += f'<b>Média fitness: </b>{avg}<br><hr>'
+        results_md += f'<b>Média fitness: </b>{avg}<br><br>'
+        results_md += f'<b>População:</b><br>{population_table}</br><hr>'
 
         with open(self.results_file_path, 'a', encoding='utf-8') as file:
             file.write(results_md)
