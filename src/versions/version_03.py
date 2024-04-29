@@ -7,8 +7,7 @@ def safe_fitness_v3(x, y):
   else:
     exponent = - (abs(x) ** 2 + abs(y) ** 2)
     complex_z = complex(x) ** exponent
-    real_z = complex_z.real
-    return real_z
+    return complex_z.real
     
 def version_03(size, n_childrens, n_generations):
     try:

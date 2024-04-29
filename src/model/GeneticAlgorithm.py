@@ -290,11 +290,10 @@ class GeneticAlgorithm:
         1. Gera uma grade de pontos dentro do intervalo especificado.
         2. Avalia a função de fitness em cada ponto da grade.
         3. Cria um gráfico de superfície 3D usando os valores de fitness.
-        4. Plota as coordenadas x, y e os valores de fitness de cada indivíduo na população como pontos de dispersão vermelhos.
-        5. Identifica o melhor indivíduo (maior ou menor fitness dependendo de `for_max`) e o plota como um ponto de dispersão azul.
-        6. Define rótulos para os eixos e um título para o gráfico.
-        7. Salva o gráfico como uma imagem PNG usando o método `save_plot`.
-        8. Por fim, exibe o gráfico usando `plt.show`.
+        4. Identifica o melhor indivíduo (maior ou menor fitness dependendo de `for_max`) e o plota como um ponto de dispersão azul.
+        5. Define rótulos para os eixos e um título para o gráfico.
+        6. Salva o gráfico como uma imagem PNG usando o método `save_plot`.
+        7. Por fim, exibe o gráfico usando `plt.show`.
         """
         x = np.linspace(self.interval[0], self.interval[1], 100)
         y = np.linspace(self.interval[0], self.interval[1], 100)
@@ -304,12 +303,6 @@ class GeneticAlgorithm:
         fig = plt.figure(num=f'Versão {self.version}')
         ax = fig.add_subplot(111, projection='3d')
         ax.plot_surface(x, y, z, cmap='viridis', alpha=0.8)
-
-        x_coordinate = [individual[0] for individual in self.population]
-        y_coordinate = [individual[1] for individual in self.population]
-        costs = [individual[2] for individual in self.population]
-
-        ax.scatter(x_coordinate, y_coordinate, costs, color='red', label='Pontos da população')
 
         if(self.for_max):
             best = max(self.population, key=lambda x: x[2])
