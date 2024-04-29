@@ -9,8 +9,6 @@ class GeneticAlgorithm:
     """
     Esta classe implementa um algoritmo genético.
 
-    
-
     Args:
         size (int): O tamanho da população (número de indivíduos).
         n_generations (int): O número de gerações para evolução.
