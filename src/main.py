@@ -5,6 +5,9 @@ from helpers.exception import generate_log
 import traceback
 
 def main():
+    ## Lembrete tornar size random de 20 - 100 e n_clildrens 70% de size
+    ## Plotar fitness medio, max e min de cada versão
+
     size = 20
     n_childrens = 14
     n_generations = 10
