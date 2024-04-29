@@ -141,22 +141,41 @@ class GeneticAlgorithm:
 
         return sum_fitness / len(self.population)
     
+    def save_plot(self):
+        try:
+            plot_dir = 'docs/plot'
+
+            if not os.path.exists(plot_dir):
+                os.makedirs(plot_dir)
+            
+            plt.savefig(f'{plot_dir}/plot_v{self.version}.png')
+        
+        except Exception as e:
+            raise Exception(f'\nErro ao tentar salvar a plotagem como imagem: \n{e}\n')
+
+
     def plot_fitness(self):
         x = np.linspace(self.interval[0], self.interval[1], 100)
         y = np.linspace(self.interval[0], self.interval[1], 100)
         x, y = np.meshgrid(x, y)
         z = self.evaluate(x, y)
 
-        fig = plt.figure()
+        fig = plt.figure(num=f'Versão {self.version}')
         ax = fig.add_subplot(111, projection='3d')
         ax.plot_surface(x, y, z, cmap='viridis', alpha=0.8)
+
+        x_coordinate = [individual[0] for individual in self.population]
+        y_coordinate = [individual[1] for individual in self.population]
+        costs = [individual[2] for individual in self.population]
+
+        ax.scatter(x_coordinate, y_coordinate, costs, color='red', label='Pontos da população')
 
         if(self.for_max):
             best = max(self.population, key=lambda x: x[2])
         else:
             best = min(self.population, key=lambda x: x[2])
             
-        ax.scatter(best[0], best[1], best[2], color='blue', s=100, label='O melhor indíviduo')
+        ax.scatter(best[0], best[1], best[2], color='blue', label='O melhor indíviduo')
 
         ax.set_xlabel('X')
         ax.set_ylabel('Y')
@@ -164,6 +183,8 @@ class GeneticAlgorithm:
         ax.set_title('Superfície da função custo')
 
         plt.legend()
+
+        self.save_plot()
         plt.show()
 
     def check_individual_best(self, count_generations):

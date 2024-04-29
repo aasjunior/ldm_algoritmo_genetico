@@ -5,13 +5,14 @@ from helpers.exception import generate_log
 import traceback
 
 def main():
-    size = 100
-    n_childrens = 70
-    n_generations = 20
+    size = 20
+    n_childrens = 14
+    n_generations = 10
 
     try:
-        version_01(size, n_childrens, n_generations)
-        version_02(size, n_childrens, n_generations)
+        # version_01(size, n_childrens, n_generations)
+        # version_02(size, n_childrens, n_generations)
+        version_03(size, n_childrens, n_generations)
 
     except Exception as e:
         print(f'Ocorreu um erro:\n{e}\nÉ possivel visualizar mais detalhes em: error_log.txt\n')
