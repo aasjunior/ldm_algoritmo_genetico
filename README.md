@@ -30,6 +30,13 @@ python main.py
 
 ### Versão 01
 
+- **Codificação**: Decimal. 
+- **Intervalo**: -500 a 500.
+- **População inicial**: 20 indivíduos
+- **Tamanho da prole**: 14 indivíduos (equivalente a 70% da população inicial).
+
+- **Função custo (fitness)**:
+
 $$
 \text{minimizar } z = 837,9658 -
 \sum_{i=1}^2 i \cdot
@@ -56,8 +63,17 @@ def version_01(size, n_childrens, n_generations):
     except Exception as e:
         raise f'Erro na execução da versão 01:\n{e}\n'
 ```
+![Plotagem versão 01](src/docs/plot/plot_v01.png)
+
 
 ### Versão 02
+
+- **Codificação**: Decimal. 
+- **Intervalo**: -5 a 5.
+- **População inicial**: 20 indivíduos
+- **Tamanho da prole**: 14 indivíduos (equivalente a 70% da população inicial).
+
+- **Função custo (fitness)**:
 
 $$
 \text{minimizar } z = 20 + x^2 + y^2 - 10 \cdot (\cos(2\pi x) + \cos(2\pi y))
@@ -78,7 +94,16 @@ def version_02(size, n_childrens, n_generations):
         raise f'Erro na execução da versão 02:\n{e}\n'
 ```
 
+![Plotagem versão 02](src/docs//plot/plot_v02.png)
+
 ### Versão 03
+
+- **Codificação**: Decimal. 
+- **Intervalo**: -2 a 2.
+- **População inicial**: 20 indivíduos
+- **Tamanho da prole**: 14 indivíduos (equivalente a 70% da população inicial)
+
+- **Função custo (fitness)**:
 
 $$
 \text{maximizar } z = x^{-(x ^ 2 + y ^ 2)}
@@ -108,6 +133,8 @@ def version_03(size, n_childrens, n_generations):
     except Exception as e:
         raise f'Erro na execução da versão 03:\n{e}\n'
 ```
+
+![Plotagem versão 03](src/docs/plot/plot_v03.png)
 
 <br>
 

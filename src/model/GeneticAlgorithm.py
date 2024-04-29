@@ -66,7 +66,7 @@ class GeneticAlgorithm:
 
     def init_population(self):
         """
-        Initialize the population with random individuals.
+        Initializethe population with random individuals.
 
         Returns:
             list: Uma lista de indivíduos, onde cada indivíduo é uma lista contendo [x, y, fitness].
