@@ -321,6 +321,12 @@ class GeneticAlgorithm:
         self.save_plot()
         plt.show()
 
+    def plot_results(self):
+        """"
+        Plotar a media, valor maximo, e minimo do fitness, ao decorrer das gerações;
+        """
+        pass
+
     def check_individual_best(self, count_generations):
         """
         Verifica e salva o melhor indivíduo e os valores de fitness para a geração atual.
