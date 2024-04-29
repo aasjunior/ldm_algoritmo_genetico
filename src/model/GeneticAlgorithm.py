@@ -9,16 +9,19 @@ class GeneticAlgorithm:
     """
     Esta classe implementa um algoritmo genético.
 
+    
+
     Args:
-        tamanho (int): O tamanho da população (número de indivíduos).
-        n_geracoes (int): O número de gerações para evolução.
-        n_filhos (int): O número de filhos a serem gerados em cada geração.
-        mutacao (float): A probabilidade de mutação para cada indivíduo.
-        funcao_fitness (function): A função de fitness a ser avaliada.
-        intervalo (tuple): O intervalo (min, max) para o espaço de busca.
-        para_maximo (bool, optional): Se deve encontrar o valor mínimo (False) ou máximo (True). Padrão para True.
-        versao (str, optional): Uma string de versão para identificar os resultados. Padrão para None.
+        size (int): O tamanho da população (número de indivíduos).
+        n_generations (int): O número de gerações para evolução.
+        n_childrens (int): O número de filhos a serem gerados em cada geração.
+        mutation (float): A probabilidade de mutação para cada indivíduo.
+        fitness (function): A função de fitness a ser avaliada, recebendo dois argumentos (x e y) e retornando um valor de fitness.
+        interval (tuple): O intervalo (mínimo, máximo) para o espaço de busca.
+        for_max (bool, optional): Se deve encontrar o valor mínimo (False) ou máximo (True). Padrão para True.
+        version (str, optional): Uma string de versão para identificar os resultados. Padrão para None.
     """
+
     def __init__(self, size, n_generations, n_childrens, mutation, fitness, interval, for_max=True, version=None):
         """
         Initialize the Genetic Algorithm object.
