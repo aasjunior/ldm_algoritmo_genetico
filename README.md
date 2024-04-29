@@ -28,8 +28,6 @@ python main.py
 
 ## Algoritmo Genético
 
-A cada execução do código principal, gerado um relatório com os resultados de cada versão em: [src/docs](src/docs)
-
 ```Python
 from versions.version_01 import version_01
 from versions.version_02 import version_02
@@ -54,6 +52,19 @@ def main():
 if __name__=='__main__':
     main()
 ```
+
+A cada execução do código principal, é gerado um relatório com os resultados de cada versão em: [src/docs](src/docs)
+
+* No VSCode: Para melhor visualização dos resultados, abrir arquivo e executar o comando `CTRL` + `SHIFT` + `v`.
+
+```
+- docs/
+    - results_01.md
+    - results_02.md
+    - results_03.md
+```
+
+<br>
 
 ### Versão 01
 
