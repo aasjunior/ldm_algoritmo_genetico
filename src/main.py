@@ -10,8 +10,8 @@ def main():
     n_generations = 10
 
     try:
-        # version_01(size, n_childrens, n_generations)
-        # version_02(size, n_childrens, n_generations)
+        version_01(size, n_childrens, n_generations)
+        version_02(size, n_childrens, n_generations)
         version_03(size, n_childrens, n_generations)
 
     except Exception as e:

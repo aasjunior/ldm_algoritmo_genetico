@@ -2,13 +2,13 @@ from model.GeneticAlgorithm import GeneticAlgorithm
 import numpy as np
 
 def safe_fitness_v3(x, y):
-    if x == 0:
-        return 0
-    else:
-        exponent = - (x ** 2 + y ** 2)
-        complex_z = complex(x) ** exponent
-        real_z = complex_z.real
-        return real_z
+  if x == 0:
+    return 0
+  else:
+    exponent = - (abs(x) ** 2 + abs(y) ** 2)
+    complex_z = complex(x) ** exponent
+    real_z = complex_z.real
+    return real_z
     
 def version_03(size, n_childrens, n_generations):
     try:
