@@ -6,11 +6,12 @@ import numpy as np
 #     return 0
 #   else:
 #     exponent = - (abs(x) ** 2 + abs(y) ** 2)
-#     complex_z = complex(x) ** exponent
-#     return complex_z.real
+#     z = abs(float(x)) ** exponent
+#     return z
 
 def safe_fitness_v3(x, y):
-    return np.exp(x - ((x**2) + (y**2)))
+    return x - (x**2 + y**2)
+    
 
 def version_03(size, n_childrens, n_generations):
     try:

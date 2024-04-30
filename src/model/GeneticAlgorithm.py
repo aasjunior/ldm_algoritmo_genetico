@@ -300,9 +300,15 @@ class GeneticAlgorithm:
         x, y = np.meshgrid(x, y)
         z = self.evaluate(x, y)
 
+        x_pop = [ind[0] for ind in self.population]
+        y_pop = [ind[1] for ind in self.population]
+        z_pop = [ind[2] for ind in self.population]
+
         fig = plt.figure(num=f'Versão {self.version}')
         ax = fig.add_subplot(111, projection='3d')
         ax.plot_surface(x, y, z, cmap='viridis', alpha=0.8)
+
+        ax.scatter(x_pop, y_pop, z_pop, color='red', label='Indivíduos na população')
 
         if(self.for_max):
             best = max(self.population, key=lambda x: x[2])
@@ -311,12 +317,14 @@ class GeneticAlgorithm:
             
         ax.scatter(best[0], best[1], best[2], color='blue', label='O melhor indíviduo')
 
+        print(f'\nMelhor individuo versão {self.version}:\nx: {best[0]}\ny: {best[1]}\nfitness: {best[2]}')
+
         ax.set_xlabel('X')
         ax.set_ylabel('Y')
         ax.set_zlabel('Fitness')
         ax.set_title('Superfície da função custo')
 
-        plt.legend()
+        ax.text(best[0], best[1], best[2], f' Melhor indivíduo:\n x={best[0]}, y={best[1]}, fitness={best[2]}', transform=ax.transAxes, verticalalignment='top', color='red')
 
         self.save_plot()
         plt.show()
