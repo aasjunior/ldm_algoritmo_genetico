@@ -101,7 +101,11 @@ def version_01(size, n_childrens, n_generations):
     except Exception as e:
         raise f'Erro na execução da versão 01:\n{e}\n'
 ```
-![Plotagem versão 01](src/docs/bckp/plot_v01.png)
+![Plotagem versão 01](src/docs/bckp/plot_fitness_v01.png)
+
+<br>
+
+![Plotagem versão 02](src/docs/bckp/plot_evolution_v01.png)
 
 
 ### Versão 02
@@ -132,7 +136,11 @@ def version_02(size, n_childrens, n_generations):
         raise f'Erro na execução da versão 02:\n{e}\n'
 ```
 
-![Plotagem versão 02](src/docs/bckp/plot_v02.png)
+![Plotagem versão 02](src/docs/bckp/plot_fitness_v02.png)
+
+<br>
+
+![Plotagem versão 02](src/docs/bckp/plot_evolution_v02.png)
 
 ### Versão 03
 
@@ -175,7 +183,11 @@ def version_03(size, n_childrens, n_generations):
         raise f'Erro na execução da versão 03:\n{e}\n'
 ```
 
-![Plotagem versão 03](src/docs/bckp/plot_v03.png)
+![Plotagem versão 03](src/docs/bckp/plot_fitness_v03.png)
+
+<br>
+
+![Plotagem versão 03](src/docs/bckp/plot_evolution_v03.png)
 
 <br>
 

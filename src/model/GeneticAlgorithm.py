@@ -263,7 +263,7 @@ class GeneticAlgorithm:
 
         return sum_fitness / len(self.population)
     
-    def save_plot(self):
+    def save_plot(self, name):
         """
         Salva o gráfico de fitness como uma imagem PNG.
 
@@ -275,7 +275,7 @@ class GeneticAlgorithm:
             if not os.path.exists(plot_dir):
                 os.makedirs(plot_dir)
             
-            plt.savefig(f'{plot_dir}/plot_v{self.version}.png')
+            plt.savefig(f'{plot_dir}/{name}.png')
         
         except Exception as e:
             raise Exception(f'\nErro ao tentar salvar a plotagem como imagem: \n{e}\n')
@@ -326,7 +326,7 @@ class GeneticAlgorithm:
 
         ax.text(best[0], best[1], best[2], f' Melhor indivíduo:\n x={best[0]}, y={best[1]}, fitness={best[2]}', transform=ax.transAxes, verticalalignment='top', color='red')
 
-        self.save_plot()
+        self.save_plot(f'plot_fitness_v{self.version}')
         plt.show()
 
     def plot_evolution(self, show=True):
@@ -361,10 +361,8 @@ class GeneticAlgorithm:
 
         plt.title(f'Evolução da população - Versão {self.version}')
 
-        # Salva o gráfico como imagem PNG
-        # self.save_plot()
+        self.save_plot(f'plot_evolution_v{self.version}')
 
-        # Exibe o gráfico na tela
         if show:
             plt.show()
             

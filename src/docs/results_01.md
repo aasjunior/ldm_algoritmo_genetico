@@ -2,7 +2,7 @@
 
 <h2>1ª Geração:</h2>
 
-<b>Tamanho da população: </b>21 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>-102</li><li><b>fitness: </b>410.3113114178949</li></ul><b>O maior fitness: </b>1216.8417925328938<br><b>O menor fitness: </b>410.3113114178949<br><b>Média fitness: </b>672.8627975998804<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>93 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>1545.2221685803052<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>723.096848562042<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -14,134 +14,566 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-439</td>
-      <td>-158</td>
-      <td>1216.841793</td>
+      <td>-414</td>
+      <td>-453</td>
+      <td>1545.222169</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>347</td>
-      <td>271</td>
-      <td>1099.778307</td>
+      <td>-226</td>
+      <td>-410</td>
+      <td>1383.091358</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>-489</td>
-      <td>-203</td>
-      <td>980.119428</td>
+      <td>-446</td>
+      <td>338</td>
+      <td>1331.056532</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>-477</td>
-      <td>-244</td>
-      <td>930.947994</td>
+      <td>-455</td>
+      <td>497</td>
+      <td>1265.072839</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>244</td>
-      <td>-244</td>
-      <td>837.965800</td>
+      <td>-356</td>
+      <td>-425</td>
+      <td>1261.448857</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>153</td>
-      <td>53</td>
-      <td>823.410600</td>
+      <td>-26</td>
+      <td>-406</td>
+      <td>1205.077208</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>-252</td>
-      <td>165</td>
-      <td>750.772120</td>
+      <td>-206</td>
+      <td>-182</td>
+      <td>1184.479086</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>368</td>
-      <td>-152</td>
-      <td>681.638382</td>
+      <td>-461</td>
+      <td>111</td>
+      <td>1166.588504</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>167</td>
-      <td>-340</td>
-      <td>644.014156</td>
+      <td>-377</td>
+      <td>128</td>
+      <td>1162.009374</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>38</td>
-      <td>-278</td>
-      <td>613.880553</td>
+      <td>282</td>
+      <td>-62</td>
+      <td>1149.312756</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>-280</td>
-      <td>354</td>
-      <td>610.881432</td>
+      <td>25</td>
+      <td>285</td>
+      <td>1124.793269</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>36</td>
-      <td>-287</td>
-      <td>577.233347</td>
+      <td>-443</td>
+      <td>236</td>
+      <td>1116.684401</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>36</td>
-      <td>-314</td>
-      <td>564.104907</td>
+      <td>-178</td>
+      <td>-225</td>
+      <td>1108.867337</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>-280</td>
-      <td>-376</td>
-      <td>556.991949</td>
+      <td>-377</td>
+      <td>-480</td>
+      <td>1079.866046</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>449</td>
-      <td>-44</td>
-      <td>530.485312</td>
+      <td>-206</td>
+      <td>21</td>
+      <td>1060.022784</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>386</td>
-      <td>52</td>
-      <td>520.166843</td>
+      <td>-377</td>
+      <td>-160</td>
+      <td>1053.655632</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>449</td>
-      <td>165</td>
-      <td>469.976963</td>
+      <td>333</td>
+      <td>-160</td>
+      <td>1039.563481</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>2</td>
+      <td>-204</td>
+      <td>1037.829089</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-237</td>
+      <td>139</td>
+      <td>1008.391113</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>211</td>
+      <td>-400</td>
+      <td>1007.881737</td>
     </tr>
     <tr>
       <th>20</th>
+      <td>-214</td>
+      <td>-22</td>
+      <td>1004.631797</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>-252</td>
+      <td>-464</td>
+      <td>998.218746</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>479</td>
+      <td>-372</td>
+      <td>945.415404</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>25</td>
+      <td>-62</td>
+      <td>923.926475</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>-206</td>
+      <td>182</td>
+      <td>893.919868</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>94</td>
+      <td>-47</td>
+      <td>888.551592</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>348</td>
+      <td>-24</td>
+      <td>881.744107</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>-1</td>
+      <td>97</td>
+      <td>878.721055</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>471</td>
+      <td>-182</td>
+      <td>849.187515</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>332</td>
+      <td>375</td>
+      <td>848.391622</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>-194</td>
+      <td>375</td>
+      <td>842.934738</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>-239</td>
+      <td>61</td>
+      <td>835.768817</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>-362</td>
+      <td>-258</td>
+      <td>812.076891</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>-237</td>
+      <td>-136</td>
+      <td>804.068303</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>145</td>
+      <td>-127</td>
+      <td>788.346120</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>-485</td>
+      <td>164</td>
+      <td>783.694588</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>311</td>
       <td>442</td>
-      <td>-102</td>
-      <td>410.311311</td>
+      <td>765.481999</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>395</td>
+      <td>-457</td>
+      <td>763.486811</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>66</td>
+      <td>-156</td>
+      <td>762.455060</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>211</td>
+      <td>-363</td>
+      <td>715.888624</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>-343</td>
+      <td>357</td>
+      <td>711.027740</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>206</td>
+      <td>-363</td>
+      <td>709.917110</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>176</td>
+      <td>-485</td>
+      <td>709.258746</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>-154</td>
+      <td>-136</td>
+      <td>707.024083</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>191</td>
+      <td>150</td>
+      <td>703.507426</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>348</td>
+      <td>-279</td>
+      <td>671.263682</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>476</td>
+      <td>-140</td>
+      <td>661.888096</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>205</td>
+      <td>-47</td>
+      <td>661.762230</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>-498</td>
+      <td>162</td>
+      <td>653.003276</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>66</td>
+      <td>-113</td>
+      <td>652.780873</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>205</td>
+      <td>-483</td>
+      <td>643.009388</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>375</td>
+      <td>162</td>
+      <td>627.089847</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>-274</td>
+      <td>-20</td>
+      <td>613.599417</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>-278</td>
+      <td>355</td>
+      <td>612.257661</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>-39</td>
+      <td>380</td>
+      <td>608.315265</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>-321</td>
+      <td>-162</td>
+      <td>606.113013</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>479</td>
+      <td>375</td>
+      <td>602.906773</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>426</td>
+      <td>-190</td>
+      <td>600.455987</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>-39</td>
+      <td>460</td>
+      <td>598.579886</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>174</td>
+      <td>182</td>
+      <td>590.944843</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>-143</td>
+      <td>374</td>
+      <td>580.410559</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>-483</td>
+      <td>-290</td>
+      <td>563.643779</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>-285</td>
+      <td>-18</td>
+      <td>559.061157</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>-498</td>
+      <td>-128</td>
+      <td>557.483872</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>25</td>
+      <td>391</td>
+      <td>549.875020</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>456</td>
+      <td>-24</td>
+      <td>543.162658</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>449</td>
+      <td>-358</td>
+      <td>540.910360</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>-321</td>
+      <td>79</td>
+      <td>539.670359</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>375</td>
+      <td>-128</td>
+      <td>531.570443</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>183</td>
+      <td>222</td>
+      <td>527.378065</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>-33</td>
+      <td>-309</td>
+      <td>525.806140</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>-306</td>
+      <td>-21</td>
+      <td>518.128827</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>-290</td>
+      <td>79</td>
+      <td>516.551273</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>449</td>
+      <td>-24</td>
+      <td>491.811734</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>-285</td>
+      <td>-258</td>
+      <td>485.574625</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>-274</td>
+      <td>375</td>
+      <td>448.206663</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>174</td>
+      <td>-309</td>
+      <td>440.992279</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>416</td>
+      <td>355</td>
+      <td>424.968169</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>471</td>
+      <td>-309</td>
+      <td>408.675733</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>413</td>
+      <td>-348</td>
+      <td>359.583726</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>232</td>
+      <td>436</td>
+      <td>340.942625</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>176</td>
+      <td>436</td>
+      <td>333.937783</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>456</td>
+      <td>-279</td>
+      <td>332.682232</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>432</td>
+      <td>-122</td>
+      <td>312.461113</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>2ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>-102</li><li><b>fitness: </b>410.3113114178949</li></ul><b>O maior fitness: </b>980.1194283511065<br><b>O menor fitness: </b>410.3113114178949<br><b>Média fitness: </b>585.7614360228138<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>92 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>1383.0913582980345<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>548.8446849695298<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -153,128 +585,560 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-489</td>
-      <td>-203</td>
-      <td>980.119428</td>
+      <td>-226</td>
+      <td>-410</td>
+      <td>1383.091358</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-477</td>
-      <td>-244</td>
-      <td>930.947994</td>
+      <td>25</td>
+      <td>285</td>
+      <td>1124.793269</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>38</td>
-      <td>-244</td>
-      <td>863.782502</td>
+      <td>-206</td>
+      <td>21</td>
+      <td>1060.022784</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>-280</td>
-      <td>271</td>
-      <td>784.149714</td>
+      <td>2</td>
+      <td>-204</td>
+      <td>1037.829089</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>-252</td>
-      <td>-152</td>
-      <td>760.422437</td>
+      <td>-237</td>
+      <td>139</td>
+      <td>1008.391113</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>-252</td>
-      <td>165</td>
-      <td>750.772120</td>
+      <td>211</td>
+      <td>-400</td>
+      <td>1007.881737</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>36</td>
-      <td>-287</td>
-      <td>577.233347</td>
+      <td>-252</td>
+      <td>-464</td>
+      <td>998.218746</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>38</td>
-      <td>-314</td>
-      <td>558.548654</td>
+      <td>25</td>
+      <td>-62</td>
+      <td>923.926475</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>-280</td>
-      <td>-376</td>
-      <td>556.991949</td>
+      <td>211</td>
+      <td>285</td>
+      <td>905.557999</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>386</td>
-      <td>-152</td>
-      <td>526.018370</td>
+      <td>94</td>
+      <td>-47</td>
+      <td>888.551592</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>386</td>
-      <td>52</td>
-      <td>520.166843</td>
+      <td>-1</td>
+      <td>97</td>
+      <td>878.721055</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>449</td>
-      <td>-152</td>
-      <td>479.627279</td>
+      <td>-33</td>
+      <td>150</td>
+      <td>868.069764</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>36</td>
-      <td>431</td>
-      <td>441.724417</td>
+      <td>-194</td>
+      <td>375</td>
+      <td>842.934738</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>-214</td>
+      <td>375</td>
+      <td>841.808177</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-239</td>
+      <td>61</td>
+      <td>835.768817</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>442</td>
-      <td>52</td>
-      <td>432.409695</td>
+      <td>-1</td>
+      <td>-24</td>
+      <td>815.223852</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>-362</td>
+      <td>-258</td>
+      <td>812.076891</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>-237</td>
+      <td>-136</td>
+      <td>804.068303</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>244</td>
-      <td>431</td>
-      <td>410.351463</td>
+      <td>-33</td>
+      <td>-20</td>
+      <td>801.612757</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>442</td>
-      <td>-102</td>
-      <td>410.311311</td>
+      <td>145</td>
+      <td>-127</td>
+      <td>788.346120</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>-485</td>
+      <td>164</td>
+      <td>783.694588</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>66</td>
+      <td>-156</td>
+      <td>762.455060</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>471</td>
+      <td>-483</td>
+      <td>710.615401</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>174</td>
+      <td>162</td>
+      <td>710.166809</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>176</td>
+      <td>-485</td>
+      <td>709.258746</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>191</td>
+      <td>150</td>
+      <td>703.507426</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>205</td>
+      <td>-47</td>
+      <td>661.762230</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>66</td>
+      <td>-113</td>
+      <td>652.780873</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>205</td>
+      <td>-483</td>
+      <td>643.009388</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>375</td>
+      <td>162</td>
+      <td>627.089847</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>-278</td>
+      <td>355</td>
+      <td>612.257661</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>-274</td>
+      <td>-22</td>
+      <td>611.030283</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>479</td>
+      <td>375</td>
+      <td>602.906773</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>-39</td>
+      <td>460</td>
+      <td>598.579886</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>174</td>
+      <td>182</td>
+      <td>590.944843</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>-285</td>
+      <td>355</td>
+      <td>577.991252</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>-483</td>
+      <td>-290</td>
+      <td>563.643779</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>-285</td>
+      <td>-18</td>
+      <td>559.061157</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>-498</td>
+      <td>-128</td>
+      <td>557.483872</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>449</td>
+      <td>97</td>
+      <td>555.308936</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>25</td>
+      <td>391</td>
+      <td>549.875020</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>456</td>
+      <td>-24</td>
+      <td>543.162658</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>183</td>
+      <td>222</td>
+      <td>527.378065</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>-498</td>
+      <td>222</td>
+      <td>518.529793</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>-306</td>
+      <td>-21</td>
+      <td>518.128827</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>-290</td>
+      <td>79</td>
+      <td>516.551273</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>102</td>
+      <td>-363</td>
+      <td>507.494929</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>449</td>
+      <td>-24</td>
+      <td>491.811734</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>-285</td>
+      <td>-258</td>
+      <td>485.574625</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>-178</td>
+      <td>182</td>
+      <td>464.098238</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>-278</td>
+      <td>222</td>
+      <td>448.846721</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>-142</td>
+      <td>-47</td>
+      <td>447.548692</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>174</td>
+      <td>-309</td>
+      <td>440.992279</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>174</td>
+      <td>-309</td>
+      <td>440.992279</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>-278</td>
+      <td>374</td>
+      <td>433.520966</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>416</td>
+      <td>355</td>
+      <td>424.968169</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>449</td>
+      <td>-140</td>
+      <td>421.594917</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>471</td>
+      <td>-309</td>
+      <td>408.675733</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>79</td>
+      <td>381.703344</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>191</td>
+      <td>-309</td>
+      <td>361.243801</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>413</td>
+      <td>-348</td>
+      <td>359.583726</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>375</td>
+      <td>-309</td>
+      <td>357.915317</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>205</td>
+      <td>-309</td>
+      <td>341.069720</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>232</td>
+      <td>436</td>
+      <td>340.942625</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>174</td>
+      <td>434</td>
+      <td>338.595465</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>-274</td>
+      <td>-309</td>
+      <td>337.792800</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>176</td>
+      <td>436</td>
+      <td>333.937783</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>456</td>
+      <td>-279</td>
+      <td>332.682232</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>-258</td>
+      <td>332.551542</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>449</td>
+      <td>375</td>
+      <td>330.576842</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>211</td>
+      <td>450</td>
+      <td>326.885939</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>183</td>
+      <td>434</td>
+      <td>290.280204</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>205</td>
+      <td>434</td>
+      <td>238.672906</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>3ª Geração:</h2>
 
-<b>Tamanho da população: </b>19 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>863.7825019267274<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>501.1277461563586<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>91 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>1060.022784448758<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>393.7837199501468<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -286,122 +1150,554 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>38</td>
-      <td>-244</td>
-      <td>863.782502</td>
+      <td>-206</td>
+      <td>21</td>
+      <td>1060.022784</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>38</td>
-      <td>165</td>
-      <td>797.050316</td>
+      <td>2</td>
+      <td>-204</td>
+      <td>1037.829089</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>-280</td>
-      <td>271</td>
-      <td>784.149714</td>
+      <td>94</td>
+      <td>-47</td>
+      <td>888.551592</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>38</td>
-      <td>-314</td>
-      <td>558.548654</td>
+      <td>-1</td>
+      <td>97</td>
+      <td>878.721055</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>38</td>
-      <td>-314</td>
-      <td>558.548654</td>
+      <td>-214</td>
+      <td>375</td>
+      <td>841.808177</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>38</td>
-      <td>-314</td>
-      <td>558.548654</td>
+      <td>145</td>
+      <td>-127</td>
+      <td>788.346120</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>386</td>
-      <td>165</td>
-      <td>516.368053</td>
+      <td>471</td>
+      <td>-483</td>
+      <td>710.615401</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>449</td>
-      <td>-152</td>
-      <td>479.627279</td>
+      <td>-33</td>
+      <td>-342</td>
+      <td>701.741172</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>449</td>
-      <td>165</td>
-      <td>469.976963</td>
+      <td>176</td>
+      <td>-24</td>
+      <td>700.982765</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>191</td>
+      <td>439</td>
+      <td>696.389758</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>205</td>
+      <td>-483</td>
+      <td>643.009388</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>375</td>
+      <td>162</td>
+      <td>627.089847</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>-278</td>
+      <td>355</td>
+      <td>612.257661</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-274</td>
+      <td>-22</td>
+      <td>611.030283</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>479</td>
+      <td>375</td>
+      <td>602.906773</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>-39</td>
+      <td>460</td>
+      <td>598.579886</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>244</td>
-      <td>431</td>
-      <td>410.351463</td>
+      <td>-290</td>
+      <td>97</td>
+      <td>596.850068</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>442</td>
-      <td>-102</td>
-      <td>410.311311</td>
+      <td>-483</td>
+      <td>-290</td>
+      <td>563.643779</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-498</td>
+      <td>-128</td>
+      <td>557.483872</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>456</td>
+      <td>-485</td>
+      <td>551.438638</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>25</td>
+      <td>391</td>
+      <td>549.875020</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>456</td>
+      <td>-24</td>
+      <td>543.162658</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>-290</td>
+      <td>-22</td>
+      <td>534.941595</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>413</td>
+      <td>110</td>
+      <td>523.082055</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>416</td>
+      <td>110</td>
+      <td>518.224958</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>-290</td>
+      <td>79</td>
+      <td>516.551273</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>449</td>
+      <td>-24</td>
+      <td>491.811734</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>-285</td>
+      <td>-258</td>
+      <td>485.574625</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>449</td>
+      <td>79</td>
+      <td>475.010141</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>-278</td>
+      <td>222</td>
+      <td>448.846721</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>-483</td>
+      <td>434</td>
+      <td>447.044308</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>174</td>
+      <td>-309</td>
+      <td>440.992279</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>432</td>
+      <td>355</td>
+      <td>437.189756</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>-278</td>
+      <td>374</td>
+      <td>433.520966</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>174</td>
+      <td>391</td>
+      <td>424.160565</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>449</td>
+      <td>-140</td>
+      <td>421.594917</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>471</td>
+      <td>-309</td>
+      <td>408.675733</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>416</td>
+      <td>-18</td>
+      <td>406.038075</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>-285</td>
+      <td>375</td>
+      <td>390.293128</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>416</td>
+      <td>79</td>
+      <td>381.703344</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>191</td>
+      <td>-309</td>
+      <td>361.243801</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>205</td>
+      <td>-309</td>
+      <td>341.069720</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>205</td>
+      <td>-309</td>
+      <td>341.069720</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>232</td>
+      <td>436</td>
+      <td>340.942625</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>174</td>
+      <td>434</td>
+      <td>338.595465</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>-274</td>
+      <td>-309</td>
+      <td>337.792800</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>-274</td>
+      <td>-309</td>
+      <td>337.792800</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>232</td>
+      <td>434</td>
+      <td>333.942039</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>176</td>
+      <td>436</td>
+      <td>333.937783</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>-258</td>
+      <td>332.551542</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>416</td>
+      <td>-258</td>
+      <td>332.551542</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>211</td>
+      <td>177</td>
+      <td>330.639750</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>191</td>
+      <td>-88</td>
+      <td>258.846987</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>205</td>
+      <td>434</td>
+      <td>238.672906</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>274</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>449</td>
+      <td>-309</td>
+      <td>220.162979</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>-285</td>
+      <td>434</td>
+      <td>177.482451</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>4ª Geração:</h2>
 
-<b>Tamanho da população: </b>18 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>395.6698273627145<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>90 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>1060.022784448758<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>284.7470492657248<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -413,116 +1709,548 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>38</td>
-      <td>165</td>
-      <td>797.050316</td>
+      <td>-206</td>
+      <td>21</td>
+      <td>1060.022784</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>38</td>
-      <td>-314</td>
-      <td>558.548654</td>
+      <td>145</td>
+      <td>-127</td>
+      <td>788.346120</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>386</td>
-      <td>165</td>
-      <td>516.368053</td>
+      <td>-33</td>
+      <td>-342</td>
+      <td>701.741172</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>386</td>
-      <td>165</td>
-      <td>516.368053</td>
+      <td>205</td>
+      <td>-483</td>
+      <td>643.009388</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>449</td>
-      <td>-152</td>
-      <td>479.627279</td>
+      <td>375</td>
+      <td>162</td>
+      <td>627.089847</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>479</td>
+      <td>375</td>
+      <td>602.906773</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>442</td>
-      <td>-152</td>
-      <td>438.261221</td>
+      <td>-274</td>
+      <td>79</td>
+      <td>592.639961</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-483</td>
+      <td>-290</td>
+      <td>563.643779</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>-498</td>
+      <td>-128</td>
+      <td>557.483872</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>25</td>
+      <td>391</td>
+      <td>549.875020</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>456</td>
+      <td>-24</td>
+      <td>543.162658</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>244</td>
-      <td>431</td>
-      <td>410.351463</td>
+      <td>-290</td>
+      <td>-22</td>
+      <td>534.941595</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>442</td>
-      <td>-102</td>
-      <td>410.311311</td>
+      <td>432</td>
+      <td>110</td>
+      <td>530.446546</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>386</td>
-      <td>-314</td>
-      <td>277.866391</td>
+      <td>416</td>
+      <td>110</td>
+      <td>518.224958</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>-290</td>
+      <td>79</td>
+      <td>516.551273</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>-274</td>
+      <td>-342</td>
+      <td>513.727831</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>-278</td>
+      <td>222</td>
+      <td>448.846721</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>174</td>
+      <td>-309</td>
+      <td>440.992279</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>416</td>
+      <td>-483</td>
+      <td>428.795850</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>449</td>
+      <td>-258</td>
+      <td>425.858339</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>-33</td>
+      <td>434</td>
+      <td>423.409326</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>471</td>
+      <td>-309</td>
+      <td>408.675733</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>416</td>
+      <td>-24</td>
+      <td>398.504937</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>456</td>
+      <td>375</td>
+      <td>381.927766</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>416</td>
+      <td>79</td>
+      <td>381.703344</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>416</td>
+      <td>79</td>
+      <td>381.703344</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>-290</td>
+      <td>375</td>
+      <td>372.117974</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>191</td>
+      <td>-309</td>
+      <td>361.243801</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>432</td>
+      <td>-258</td>
+      <td>344.773130</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>205</td>
+      <td>-309</td>
+      <td>341.069720</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>-274</td>
+      <td>-309</td>
+      <td>337.792800</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>416</td>
+      <td>-140</td>
+      <td>328.288120</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>176</td>
+      <td>434</td>
+      <td>326.937197</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>432</td>
+      <td>260</td>
+      <td>315.012801</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>-278</td>
+      <td>-309</td>
+      <td>314.145674</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>471</td>
+      <td>434</td>
+      <td>306.278919</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>416</td>
+      <td>222</td>
+      <td>261.557229</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>205</td>
+      <td>434</td>
+      <td>238.672906</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>416</td>
+      <td>274</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>449</td>
+      <td>-309</td>
+      <td>220.162979</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>449</td>
+      <td>391</td>
+      <td>203.331265</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>-285</td>
+      <td>434</td>
+      <td>177.482451</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>-290</td>
+      <td>436</td>
+      <td>166.307883</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>-309</td>
+      <td>126.856182</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>449</td>
+      <td>290</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>413</td>
+      <td>436</td>
+      <td>36.317052</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>5ª Geração:</h2>
 
-<b>Tamanho da população: </b>17 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>312.74532825187725<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>89 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>788.3461200584647<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>182.13635528621901<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -534,110 +2262,542 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>38</td>
-      <td>165</td>
-      <td>797.050316</td>
+      <td>145</td>
+      <td>-127</td>
+      <td>788.346120</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>38</td>
-      <td>-102</td>
-      <td>778.750723</td>
+      <td>416</td>
+      <td>290</td>
+      <td>703.117871</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>386</td>
-      <td>165</td>
-      <td>516.368053</td>
+      <td>205</td>
+      <td>-483</td>
+      <td>643.009388</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>449</td>
-      <td>-152</td>
-      <td>479.627279</td>
+      <td>-274</td>
+      <td>79</td>
+      <td>592.639961</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-498</td>
+      <td>-128</td>
+      <td>557.483872</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>442</td>
-      <td>165</td>
-      <td>428.610905</td>
+      <td>-290</td>
+      <td>79</td>
+      <td>516.551273</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>244</td>
-      <td>431</td>
-      <td>410.351463</td>
+      <td>174</td>
+      <td>-309</td>
+      <td>440.992279</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>442</td>
-      <td>-102</td>
-      <td>410.311311</td>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>-278</td>
+      <td>375</td>
+      <td>424.559537</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>416</td>
+      <td>-24</td>
+      <td>398.504937</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>456</td>
+      <td>375</td>
+      <td>381.927766</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>416</td>
+      <td>79</td>
+      <td>381.703344</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>432</td>
+      <td>-258</td>
+      <td>344.773130</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>-140</td>
+      <td>328.288120</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-278</td>
+      <td>-309</td>
+      <td>314.145674</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>-278</td>
+      <td>-309</td>
+      <td>314.145674</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>-278</td>
+      <td>450</td>
+      <td>293.560149</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>416</td>
+      <td>222</td>
+      <td>261.557229</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>205</td>
+      <td>434</td>
+      <td>238.672906</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>416</td>
+      <td>274</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>416</td>
+      <td>375</td>
+      <td>237.270045</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>449</td>
+      <td>391</td>
+      <td>203.331265</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>449</td>
+      <td>450</td>
+      <td>199.577454</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>-285</td>
+      <td>434</td>
+      <td>177.482451</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>-290</td>
+      <td>436</td>
+      <td>166.307883</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>432</td>
+      <td>-309</td>
+      <td>139.077770</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>416</td>
+      <td>-309</td>
+      <td>126.856182</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>416</td>
+      <td>-309</td>
+      <td>126.856182</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>416</td>
+      <td>-309</td>
+      <td>126.856182</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>449</td>
+      <td>290</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>-479</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>413</td>
+      <td>391</td>
+      <td>114.881565</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>-444</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>-108</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>6ª Geração:</h2>
 
-<b>Tamanho da população: </b>16 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>268.24252286999564<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>88 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>917.3314092491041<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>116.58626048838406<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -649,104 +2809,536 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>38</td>
-      <td>165</td>
-      <td>797.050316</td>
+      <td>205</td>
+      <td>290</td>
+      <td>917.331409</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>38</td>
-      <td>-102</td>
-      <td>778.750723</td>
+      <td>-444</td>
+      <td>434</td>
+      <td>793.541178</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>244</td>
-      <td>165</td>
-      <td>771.233614</td>
+      <td>-479</td>
+      <td>391</td>
+      <td>576.142631</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>456</td>
+      <td>375</td>
+      <td>381.927766</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>432</td>
+      <td>-258</td>
+      <td>344.773130</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>442</td>
-      <td>-314</td>
-      <td>190.109243</td>
+      <td>432</td>
+      <td>-342</td>
+      <td>315.012801</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>432</td>
+      <td>375</td>
+      <td>249.491632</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-278</td>
+      <td>434</td>
+      <td>211.748860</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>449</td>
+      <td>391</td>
+      <td>203.331265</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>449</td>
+      <td>450</td>
+      <td>199.577454</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>449</td>
+      <td>450</td>
+      <td>199.577454</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>-290</td>
+      <td>436</td>
+      <td>166.307883</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>416</td>
+      <td>-309</td>
+      <td>126.856182</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>416</td>
+      <td>-309</td>
+      <td>126.856182</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>432</td>
+      <td>450</td>
+      <td>118.492244</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>413</td>
+      <td>391</td>
+      <td>114.881565</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>413</td>
+      <td>391</td>
+      <td>114.881565</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>-444</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>416</td>
+      <td>450</td>
+      <td>106.270657</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>-108</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>-87</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>416</td>
+      <td>-439</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>7ª Geração:</h2>
 
-<b>Tamanho da população: </b>15 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>146.4282927659066<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>87 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>1101.6333521494767<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>87.48349097942382<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -758,98 +3350,530 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>38</td>
-      <td>165</td>
-      <td>797.050316</td>
+      <td>-444</td>
+      <td>-258</td>
+      <td>1101.633352</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>38</td>
-      <td>431</td>
-      <td>436.168165</td>
+      <td>-87</td>
+      <td>-309</td>
+      <td>551.193941</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>456</td>
+      <td>375</td>
+      <td>381.927766</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>-258</td>
+      <td>344.773130</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-274</td>
+      <td>434</td>
+      <td>235.395985</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>449</td>
+      <td>391</td>
+      <td>203.331265</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>436</td>
+      <td>166.307883</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>391</td>
+      <td>122.246056</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>413</td>
+      <td>391</td>
+      <td>114.881565</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>-444</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>432</td>
+      <td>436</td>
+      <td>43.681542</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>413</td>
+      <td>436</td>
+      <td>36.317052</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>416</td>
+      <td>320</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>8ª Geração:</h2>
 
-<b>Tamanho da população: </b>14 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>109.09481151514848<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>70.68347180396334<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>86 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>684.4152700825379<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>55.58780620988974<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -861,92 +3885,524 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>449</td>
-      <td>431</td>
-      <td>109.094812</td>
+      <td>416</td>
+      <td>320</td>
+      <td>684.415270</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>-258</td>
+      <td>344.773130</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>436</td>
+      <td>166.307883</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>452</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>416</td>
+      <td>436</td>
+      <td>31.459954</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>416</td>
+      <td>320</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>409</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>9ª Geração:</h2>
 
-<b>Tamanho da população: </b>13 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>67.72875336464142<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>67.72875336464142<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>85 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>684.4152700825379<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>47.01276982218383<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -958,86 +4414,518 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>320</td>
+      <td>684.415270</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>449</td>
+      <td>434</td>
+      <td>117.766165</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>452</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>464</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>409</td>
+      <td>434</td>
+      <td>39.215937</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>409</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>-263</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>416</td>
+      <td>-348</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>416</td>
+      <td>-492</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr><h2>10ª Geração:</h2>
 
-<b>Tamanho da população: </b>12 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>229.6370230570638<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>86.40636791494016<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>84 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>416</li><li><b>y: </b>434</li><li><b>fitness: </b>24.459368039958463</li></ul><b>O maior fitness: </b>437.6391426119783<br><b>O menor fitness: </b>24.459368039958463<br><b>Média fitness: </b>40.12066592853725<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1049,294 +4937,507 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>464</td>
-      <td>431</td>
-      <td>229.637023</td>
+      <td>-290</td>
+      <td>-342</td>
+      <td>437.639143</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>452</td>
-      <td>431</td>
-      <td>129.951858</td>
+      <td>416</td>
+      <td>-348</td>
+      <td>354.726629</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>-342</td>
+      <td>302.791214</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>-290</td>
+      <td>434</td>
+      <td>159.307297</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>416</td>
+      <td>391</td>
+      <td>110.024468</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>409</td>
+      <td>434</td>
+      <td>39.215937</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>-128</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>432</td>
+      <td>434</td>
+      <td>36.680955</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
-    </tr>
-  </tbody>
-</table></br><hr><h2>11ª Geração:</h2>
-
-<b>Tamanho da população: </b>11 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>129.951858275804<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>73.38539926565619<br><br><b>População:</b><br><table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>x</th>
-      <th>y</th>
-      <th>fitness</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>452</td>
-      <td>431</td>
-      <td>129.951858</td>
+      <td>413</td>
+      <td>434</td>
+      <td>29.316465</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>12</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>13</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>27</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>14</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>15</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>16</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>17</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>18</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>19</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>9</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>20</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>10</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
-    </tr>
-  </tbody>
-</table></br><hr><h2>12ª Geração:</h2>
-
-<b>Tamanho da população: </b>10 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>67.72875336464142<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>67.72875336464142<br><br><b>População:</b><br><table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>x</th>
-      <th>y</th>
-      <th>fitness</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>21</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>22</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>23</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>24</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>25</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>26</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>27</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>28</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>29</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>9</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
-    </tr>
-  </tbody>
-</table></br><hr><h2>13ª Geração:</h2>
-
-<b>Tamanho da população: </b>9 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>67.72875336464142<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>67.72875336464142<br><br><b>População:</b><br><table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>x</th>
-      <th>y</th>
-      <th>fitness</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>30</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>31</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>32</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>33</th>
+      <td>409</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>34</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>35</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>6</th>
-      <td>442</td>
-      <td>254</td>
-      <td>67.728753</td>
+      <th>36</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>37</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>442</td>
-      <td>431</td>
-      <td>67.728753</td>
+      <th>38</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>416</td>
+      <td>-348</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>416</td>
+      <td>-290</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>416</td>
+      <td>434</td>
+      <td>24.459368</td>
     </tr>
   </tbody>
 </table></br><hr>
