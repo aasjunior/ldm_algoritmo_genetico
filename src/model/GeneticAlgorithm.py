@@ -41,6 +41,7 @@ class GeneticAlgorithm:
         self.fitness = fitness
         self.interval = interval
         self.for_max = for_max
+        self.version = version
 
         self.population = self.init_population()
         self.childrens = []
@@ -48,7 +49,6 @@ class GeneticAlgorithm:
         self.fitness_max = []
         self.fitness_min = []
 
-        self.version = version
         self.results_file_path = f'docs/results_{version}.md' if version else 'docs/results.md'
 
     def evaluate(self, x, y):
@@ -346,15 +346,18 @@ class GeneticAlgorithm:
 
         Se `show` for True, o gráfico também é exibido na tela.
         """
-
-        # Plotando Fitness médio, máximo e mínimo no mesmo gráfico
-        plt.plot(self.fitness_avgs, label='Média', color='blue')
-        plt.plot(self.fitness_max, label='Máximo', color='green')
-        plt.plot(self.fitness_min, label='Mínimo', color='red')
-
+        plt.figure(num=f'Versão {self.version}')
+        generations = range(len(self.fitness_avgs))  # Cria um array de números de geração
+        plt.plot(generations, self.fitness_avgs, label='Média', color='blue')
+        plt.plot(generations, self.fitness_max, label='Máximo', color='green')
+        plt.plot(generations, self.fitness_min, label='Mínimo', color='red')
+        
         plt.ylabel('Fitness')
         plt.xlabel('Geração')
         plt.legend()
+
+        plt.xticks(generations)
+        plt.grid(True)
 
         plt.title(f'Evolução da população - Versão {self.version}')
 
@@ -364,9 +367,7 @@ class GeneticAlgorithm:
         # Exibe o gráfico na tela
         if show:
             plt.show()
-
-
-
+            
     def plot_results(self, show=True):
         pass
 
@@ -493,6 +494,5 @@ class GeneticAlgorithm:
             count_generations += 1
 
         print(f'Gerado arquivo com resultados em: {self.results_file_path}\n')
-        # self.plot_fitness()
-        # self.plot_results()
+        self.plot_fitness()
         self.plot_evolution()

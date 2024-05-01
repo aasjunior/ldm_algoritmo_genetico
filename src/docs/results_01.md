@@ -2,7 +2,7 @@
 
 <h2>1ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>-261</li><li><b>fitness: </b>330.7707847576869</li></ul><b>O maior fitness: </b>1393.2643126344876<br><b>O menor fitness: </b>330.7707847576869<br><b>Média fitness: </b>897.6896503602904<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>21 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>-102</li><li><b>fitness: </b>410.3113114178949</li></ul><b>O maior fitness: </b>1216.8417925328938<br><b>O menor fitness: </b>410.3113114178949<br><b>Média fitness: </b>672.8627975998804<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -14,128 +14,134 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-386</td>
-      <td>-455</td>
-      <td>1393.264313</td>
+      <td>-439</td>
+      <td>-158</td>
+      <td>1216.841793</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-198</td>
-      <td>326</td>
-      <td>1268.046502</td>
+      <td>347</td>
+      <td>271</td>
+      <td>1099.778307</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>-388</td>
-      <td>106</td>
-      <td>1210.067933</td>
+      <td>-489</td>
+      <td>-203</td>
+      <td>980.119428</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>29</td>
-      <td>-389</td>
-      <td>1158.853362</td>
+      <td>-477</td>
+      <td>-244</td>
+      <td>930.947994</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>-447</td>
-      <td>-256</td>
-      <td>1099.722973</td>
+      <td>244</td>
+      <td>-244</td>
+      <td>837.965800</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>-447</td>
-      <td>-261</td>
-      <td>1060.480783</td>
+      <td>153</td>
+      <td>53</td>
+      <td>823.410600</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>-373</td>
-      <td>-45</td>
-      <td>1023.333133</td>
+      <td>-252</td>
+      <td>165</td>
+      <td>750.772120</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>-124</td>
-      <td>-389</td>
-      <td>1013.385038</td>
+      <td>368</td>
+      <td>-152</td>
+      <td>681.638382</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>-494</td>
-      <td>-208</td>
-      <td>922.566919</td>
+      <td>167</td>
+      <td>-340</td>
+      <td>644.014156</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>19</td>
-      <td>-478</td>
-      <td>916.778452</td>
+      <td>38</td>
+      <td>-278</td>
+      <td>613.880553</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>-494</td>
-      <td>-215</td>
-      <td>908.927471</td>
+      <td>-280</td>
+      <td>354</td>
+      <td>610.881432</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>-494</td>
-      <td>110</td>
-      <td>819.096130</td>
+      <td>36</td>
+      <td>-287</td>
+      <td>577.233347</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>19</td>
-      <td>76</td>
-      <td>806.425949</td>
+      <td>36</td>
+      <td>-314</td>
+      <td>564.104907</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>16</td>
-      <td>76</td>
-      <td>800.709554</td>
+      <td>-280</td>
+      <td>-376</td>
+      <td>556.991949</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>-254</td>
-      <td>-3</td>
-      <td>783.165478</td>
+      <td>449</td>
+      <td>-44</td>
+      <td>530.485312</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>-124</td>
-      <td>-478</td>
-      <td>776.165645</td>
+      <td>386</td>
+      <td>52</td>
+      <td>520.166843</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>278</td>
-      <td>438</td>
-      <td>683.885510</td>
+      <td>449</td>
+      <td>165</td>
+      <td>469.976963</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>397</td>
-      <td>130</td>
-      <td>608.134102</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>442</td>
+      <td>-102</td>
+      <td>410.311311</td>
     </tr>
   </tbody>
 </table></br><hr><h2>2ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>1099.7229731445486<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>646.9028420177831<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>-102</li><li><b>fitness: </b>410.3113114178949</li></ul><b>O maior fitness: </b>980.1194283511065<br><b>O menor fitness: </b>410.3113114178949<br><b>Média fitness: </b>585.7614360228138<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -147,128 +153,128 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-447</td>
-      <td>-256</td>
-      <td>1099.722973</td>
+      <td>-489</td>
+      <td>-203</td>
+      <td>980.119428</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-373</td>
-      <td>-45</td>
-      <td>1023.333133</td>
+      <td>-477</td>
+      <td>-244</td>
+      <td>930.947994</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>278</td>
-      <td>76</td>
-      <td>1017.188667</td>
+      <td>38</td>
+      <td>-244</td>
+      <td>863.782502</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>278</td>
-      <td>-261</td>
-      <td>953.608314</td>
+      <td>-280</td>
+      <td>271</td>
+      <td>784.149714</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>-494</td>
-      <td>-208</td>
-      <td>922.566919</td>
+      <td>-252</td>
+      <td>-152</td>
+      <td>760.422437</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>-494</td>
-      <td>-215</td>
-      <td>908.927471</td>
+      <td>-252</td>
+      <td>165</td>
+      <td>750.772120</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>16</td>
-      <td>76</td>
-      <td>800.709554</td>
+      <td>36</td>
+      <td>-287</td>
+      <td>577.233347</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>-124</td>
-      <td>-478</td>
-      <td>776.165645</td>
+      <td>38</td>
+      <td>-314</td>
+      <td>558.548654</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>278</td>
-      <td>438</td>
-      <td>683.885510</td>
+      <td>-280</td>
+      <td>-376</td>
+      <td>556.991949</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>-208</td>
-      <td>643.323616</td>
+      <td>386</td>
+      <td>-152</td>
+      <td>526.018370</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>-215</td>
-      <td>629.684168</td>
+      <td>386</td>
+      <td>52</td>
+      <td>520.166843</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>-494</td>
-      <td>-261</td>
-      <td>610.014088</td>
+      <td>449</td>
+      <td>-152</td>
+      <td>479.627279</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>397</td>
-      <td>130</td>
-      <td>608.134102</td>
+      <td>36</td>
+      <td>431</td>
+      <td>441.724417</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>16</td>
-      <td>438</td>
-      <td>467.406397</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>442</td>
+      <td>52</td>
+      <td>432.409695</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>244</td>
+      <td>431</td>
+      <td>410.351463</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-102</td>
+      <td>410.311311</td>
     </tr>
   </tbody>
 </table></br><hr><h2>3ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>901.1461721607878<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>407.76867981838035<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>19 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>863.7825019267274<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>501.1277461563586<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -280,128 +286,122 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-124</td>
-      <td>-215</td>
-      <td>901.146172</td>
+      <td>38</td>
+      <td>-244</td>
+      <td>863.782502</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>16</td>
-      <td>76</td>
-      <td>800.709554</td>
+      <td>38</td>
+      <td>165</td>
+      <td>797.050316</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>-124</td>
-      <td>-478</td>
-      <td>776.165645</td>
+      <td>-280</td>
+      <td>271</td>
+      <td>784.149714</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>-208</td>
-      <td>643.323616</td>
+      <td>38</td>
+      <td>-314</td>
+      <td>558.548654</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>-215</td>
-      <td>629.684168</td>
+      <td>38</td>
+      <td>-314</td>
+      <td>558.548654</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>-215</td>
-      <td>629.684168</td>
+      <td>38</td>
+      <td>-314</td>
+      <td>558.548654</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>397</td>
-      <td>130</td>
-      <td>608.134102</td>
+      <td>386</td>
+      <td>165</td>
+      <td>516.368053</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>16</td>
-      <td>438</td>
-      <td>467.406397</td>
+      <td>449</td>
+      <td>-152</td>
+      <td>479.627279</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>449</td>
+      <td>165</td>
+      <td>469.976963</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>187</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>244</td>
+      <td>431</td>
+      <td>410.351463</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>435</td>
-      <td>98</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-102</td>
+      <td>410.311311</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>4ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>901.1461721607878<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>314.9131257490611<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>18 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>395.6698273627145<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -413,128 +413,116 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>-124</td>
-      <td>-215</td>
-      <td>901.146172</td>
+      <td>38</td>
+      <td>165</td>
+      <td>797.050316</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>16</td>
-      <td>76</td>
-      <td>800.709554</td>
+      <td>38</td>
+      <td>-314</td>
+      <td>558.548654</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>435</td>
-      <td>-208</td>
-      <td>643.323616</td>
+      <td>386</td>
+      <td>165</td>
+      <td>516.368053</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>98</td>
-      <td>488.510724</td>
+      <td>386</td>
+      <td>165</td>
+      <td>516.368053</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>98</td>
-      <td>488.510724</td>
+      <td>449</td>
+      <td>-152</td>
+      <td>479.627279</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>16</td>
-      <td>438</td>
-      <td>467.406397</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>442</td>
+      <td>-152</td>
+      <td>438.261221</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>187</td>
-      <td>438</td>
-      <td>287.933181</td>
+      <td>244</td>
+      <td>431</td>
+      <td>410.351463</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-102</td>
+      <td>410.311311</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>386</td>
+      <td>-314</td>
+      <td>277.866391</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>435</td>
-      <td>98</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>5ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>643.3236155568219<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>201.06586011251244<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>17 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>312.74532825187725<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -546,128 +534,110 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>435</td>
-      <td>-208</td>
-      <td>643.323616</td>
+      <td>38</td>
+      <td>165</td>
+      <td>797.050316</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>435</td>
-      <td>98</td>
-      <td>488.510724</td>
+      <td>38</td>
+      <td>-102</td>
+      <td>778.750723</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>16</td>
-      <td>438</td>
-      <td>467.406397</td>
+      <td>386</td>
+      <td>165</td>
+      <td>516.368053</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>449</td>
+      <td>-152</td>
+      <td>479.627279</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>-256</td>
-      <td>370.012975</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>442</td>
+      <td>165</td>
+      <td>428.610905</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>244</td>
+      <td>431</td>
+      <td>410.351463</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>187</td>
-      <td>438</td>
-      <td>287.933181</td>
+      <td>442</td>
+      <td>-102</td>
+      <td>410.311311</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>98</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>6ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>330.7707847576869<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>110.70878101147575<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>16 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>268.24252286999564<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -679,128 +649,104 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>38</td>
+      <td>165</td>
+      <td>797.050316</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>435</td>
-      <td>-261</td>
-      <td>330.770785</td>
+      <td>38</td>
+      <td>-102</td>
+      <td>778.750723</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>187</td>
-      <td>438</td>
-      <td>287.933181</td>
+      <td>244</td>
+      <td>165</td>
+      <td>771.233614</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>187</td>
-      <td>438</td>
-      <td>287.933181</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>-314</td>
+      <td>190.109243</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>7ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>61.04798050354094<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>61.047980503540906<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>15 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>797.050316298527<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>146.4282927659066<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -812,128 +758,98 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>38</td>
+      <td>165</td>
+      <td>797.050316</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>38</td>
+      <td>431</td>
+      <td>436.168165</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>8ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>61.04798050354094<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>61.047980503540906<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>14 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>109.09481151514848<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>70.68347180396334<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -945,128 +861,92 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>449</td>
+      <td>431</td>
+      <td>109.094812</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>452</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>435</td>
-      <td>477</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>9ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>61.04798050354094<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>61.047980503540906<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>13 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>67.72875336464142<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>67.72875336464142<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1078,128 +958,86 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>452</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>464</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr><h2>10ª Geração:</h2>
 
-<b>Tamanho da população: </b>20 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>435</li><li><b>y: </b>438</li><li><b>fitness: </b>61.04798050354094</li></ul><b>O maior fitness: </b>61.04798050354094<br><b>O menor fitness: </b>61.04798050354094<br><b>Média fitness: </b>61.047980503540906<br><br><b>População:</b><br><table border="1" class="dataframe">
+<b>Tamanho da população: </b>12 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>229.6370230570638<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>86.40636791494016<br><br><b>População:</b><br><table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1211,123 +1049,294 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>464</td>
+      <td>431</td>
+      <td>229.637023</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>452</td>
+      <td>431</td>
+      <td>129.951858</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>-128</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+  </tbody>
+</table></br><hr><h2>11ª Geração:</h2>
+
+<b>Tamanho da população: </b>11 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>129.951858275804<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>73.38539926565619<br><br><b>População:</b><br><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+      <th>fitness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>452</td>
+      <td>431</td>
+      <td>129.951858</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>1</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>2</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>3</th>
+      <td>27</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>4</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>435</td>
-      <td>-398</td>
-      <td>61.047981</td>
+      <th>5</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>6</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>7</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>435</td>
-      <td>438</td>
-      <td>61.047981</td>
+      <th>8</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+  </tbody>
+</table></br><hr><h2>12ª Geração:</h2>
+
+<b>Tamanho da população: </b>10 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>67.72875336464142<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>67.72875336464142<br><br><b>População:</b><br><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+      <th>fitness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+  </tbody>
+</table></br><hr><h2>13ª Geração:</h2>
+
+<b>Tamanho da população: </b>9 <br><b>O melhor individuo: </b><br><ul><li><b>x: </b>442</li><li><b>y: </b>431</li><li><b>fitness: </b>67.72875336464142</li></ul><b>O maior fitness: </b>67.72875336464142<br><b>O menor fitness: </b>67.72875336464142<br><b>Média fitness: </b>67.72875336464142<br><br><b>População:</b><br><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+      <th>fitness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>442</td>
+      <td>254</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>442</td>
+      <td>431</td>
+      <td>67.728753</td>
     </tr>
   </tbody>
 </table></br><hr>

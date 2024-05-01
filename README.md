@@ -144,8 +144,17 @@ def version_02(size, n_childrens, n_generations):
 - **Função custo (fitness)**:
 
 $$
-\text{maximizar } z = x^{-(x ^ 2 + y ^ 2)}
+\text{maximizar } z = e^{x - (x^2 + y^2)}
 $$
+
+**Observação:** A função custo original era: 
+$$x^{-(x^2 + y^2)}$$ 
+
+No entanto, essa função apresentou desafios na implementação em Python devido a problemas com números complexos e divisão por zero, especialmente durante a plotagem da superfície da função de fitness. Embora os cálculos de fitness dos indivíduos estivessem corretos, os erros ocorreram durante a geração da superfície de plotagem. Para contornar esses problemas e garantir a robustez do algoritmo, a função custo foi modificada para 
+
+$$e^{x - (x^2 + y^2)}$$
+
+Essa nova função mantém características importantes da função original, mas evita os problemas mencionados.
 
 ```Python
 from model.GeneticAlgorithm import GeneticAlgorithm
