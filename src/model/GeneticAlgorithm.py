@@ -329,10 +329,45 @@ class GeneticAlgorithm:
         self.save_plot()
         plt.show()
 
-    def plot_results(self):
-        """"
-        Plotar a media, valor maximo, e minimo do fitness, ao decorrer das gerações;
+    def plot_evolution(self, show=True):
         """
+        Plota a evolução temporal das populações e a variação dos valores de fitness médio, máximo e mínimo.
+
+        Args:
+            show (bool, optional): Se deve exibir o gráfico (True) ou apenas salvá-lo (False). Padrão para True.
+
+        Este método gera um gráfico com três linhas:
+
+        1. **Fitness médio:** Mostra a variação do fitness médio da população ao longo das gerações.
+        2. **Fitness máximo:** Apresenta a trajetória do fitness máximo da população ao longo das gerações.
+        3. **Fitness mínimo:** Apresenta a trajetória do fitness mínimo da população ao longo das gerações.
+
+        O gráfico é salvo como uma imagem PNG no diretório `docs/plot` com o nome `plot_v{self.version}.png`.
+
+        Se `show` for True, o gráfico também é exibido na tela.
+        """
+
+        # Plotando Fitness médio, máximo e mínimo no mesmo gráfico
+        plt.plot(self.fitness_avgs, label='Média', color='blue')
+        plt.plot(self.fitness_max, label='Máximo', color='green')
+        plt.plot(self.fitness_min, label='Mínimo', color='red')
+
+        plt.ylabel('Fitness')
+        plt.xlabel('Geração')
+        plt.legend()
+
+        plt.title(f'Evolução da população - Versão {self.version}')
+
+        # Salva o gráfico como imagem PNG
+        # self.save_plot()
+
+        # Exibe o gráfico na tela
+        if show:
+            plt.show()
+
+
+
+    def plot_results(self, show=True):
         pass
 
     def check_individual_best(self, count_generations):
@@ -458,4 +493,6 @@ class GeneticAlgorithm:
             count_generations += 1
 
         print(f'Gerado arquivo com resultados em: {self.results_file_path}\n')
-        self.plot_fitness()
+        # self.plot_fitness()
+        # self.plot_results()
+        self.plot_evolution()

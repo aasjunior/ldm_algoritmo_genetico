@@ -15,8 +15,8 @@ def main():
     readme = '../README.md'
 
     try:
-        # version_01(size, n_childrens, n_generations)
-        # version_02(size, n_childrens, n_generations)
+        version_01(size, n_childrens, n_generations)
+        version_02(size, n_childrens, n_generations)
         version_03(size, n_childrens, n_generations)
 
         print(f'\nA analise do algoritmo e seus resultados podem ser observados em {readme}\n')
