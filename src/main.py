@@ -12,11 +12,14 @@ def main():
     n_childrens = 14
     n_generations = 10
 
+    readme = '../README.md'
+
     try:
-        version_01(size, n_childrens, n_generations)
-        version_02(size, n_childrens, n_generations)
+        # version_01(size, n_childrens, n_generations)
+        # version_02(size, n_childrens, n_generations)
         version_03(size, n_childrens, n_generations)
 
+        print(f'\nA analise do algoritmo e seus resultados podem ser observados em {readme}\n')
     except Exception as e:
         print(f'Ocorreu um erro:\n{e}\nÉ possivel visualizar mais detalhes em: error_log.txt\n')
         generate_log(e, traceback.format_exc())
