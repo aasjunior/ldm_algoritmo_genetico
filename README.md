@@ -33,18 +33,28 @@ from versions.version_01 import version_01
 from versions.version_02 import version_02
 from versions.version_03 import version_03
 from helpers.exception import generate_log
+import numpy as np
 import traceback
 
 def main():
-    size = 20
-    n_childrens = 14
+    # Gera um número aleatório no intervalo de 20 a 100
+    size = np.random.randint(20, 101)
+
+    # Calcula n_childrens como 70% de size
+    n_childrens = int(0.7 * size)
+
     n_generations = 10
+
+    readme = '../README.md'
+    plot_imgs = 'docs/plot'
 
     try:
         version_01(size, n_childrens, n_generations)
         version_02(size, n_childrens, n_generations)
         version_03(size, n_childrens, n_generations)
 
+        print(f'\nA imagem de cada plotagem esta sendo salva no diretório {plot_imgs}. A analise do algoritmo e seus resultados podem ser observados em: {readme}')
+        print(f'Obs: No VSCode, para melhor visualização do README, usar o comando CTRL + SHIFT + v.\n')
     except Exception as e:
         print(f'Ocorreu um erro:\n{e}\nÉ possivel visualizar mais detalhes em: error_log.txt\n')
         generate_log(e, traceback.format_exc())
@@ -169,15 +179,19 @@ from model.GeneticAlgorithm import GeneticAlgorithm
 import numpy as np
 
 def safe_fitness_v3(x, y):
-    return np.exp(x - ((x**2) + (y**2)))
+    return np.exp(x-((x**2)+(y**2)))
 
-def version_03(size, n_childrens, n_generations):
+def version_03(size, n_childrens, n_generations, average_fitness=False):
+    save_docs = not average_fitness
+
     try:
-        v_safe_fitness_v3 = np.vectorize(safe_fitness_v3)
-        fitness_v3 = lambda x, y: v_safe_fitness_v3(x, y)
-        
-        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-2, 2], fitness=fitness_v3, for_max=True, version='03')
+        fitness_v3 = np.vectorize(safe_fitness_v3)
+        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-2, 2], fitness=fitness_v3, for_max=True, version='03', save_docs=save_docs)
         algorithm.init()
+
+        if average_fitness:
+            return np.mean(algorithm.fitness_avgs)
+        
 
     except Exception as e:
         raise f'Erro na execução da versão 03:\n{e}\n'
@@ -191,10 +205,21 @@ def version_03(size, n_childrens, n_generations):
 
 <br>
 
-### Analise 
+### Analise média do fitness de cada versão em 10 execuções
+
+Executar:
+
+```Shell
+C:/../ldm_algoritmo_genetico/src> python average_fitness.py
+```
+
+Realiza dez execuções das versões 01, 02 e 03 do algoritmo genético, retornando a média fitness de cada versão nas dez execuções e um gráfico apresentado a média durante cada execução:
+
+![Plotagem médias fitness](src/docs/bckp/plot_avg_iterations.png)
 
 ### Conclusão
 
+Conforme observado nas três versões do algoritmo, a _range_ do intervalo de valores de cada versão implica diretamente na taxa de convergência da população, sendo necessário um número maior de gerações para se alcançar o mais próximo da solução ótima. Sendo assim, com o número de gerações especificado (10), as versões 01 e 02 do algoritmo alcançaram valores mais próximos da solução ótima.
 
 <hr>
 

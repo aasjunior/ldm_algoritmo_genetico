@@ -15,13 +15,14 @@ def main():
     n_generations = 10
 
     readme = '../README.md'
+    plot_imgs = 'docs/plot'
 
     try:
         version_01(size, n_childrens, n_generations)
         version_02(size, n_childrens, n_generations)
         version_03(size, n_childrens, n_generations)
 
-        print(f'\nA analise do algoritmo e seus resultados podem ser observados em: {readme}')
+        print(f'\nA imagem de cada plotagem esta sendo salva no diretório {plot_imgs}. A analise do algoritmo e seus resultados podem ser observados em: {readme}')
         print(f'Obs: No VSCode, para melhor visualização do README, usar o comando CTRL + SHIFT + v.\n')
     except Exception as e:
         print(f'Ocorreu um erro:\n{e}\nÉ possivel visualizar mais detalhes em: error_log.txt\n')

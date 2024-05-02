@@ -41,7 +41,6 @@ def average():
         print("Média do fitness da versão 02 nas 10 execuções:", avg_v02)
         print("Média do fitness da versão 03 nas 10 execuções:", avg_v03)
 
-        #plt.figure(figsize=(10, 6))
         plt.plot(iterations, fitness_avg_v01, label='Versão 01', marker='o')
         plt.plot(iterations, fitness_avg_v02, label='Versão 02', marker='o')
         plt.plot(iterations, fitness_avg_v03, label='Versão 03', marker='o')
@@ -51,11 +50,10 @@ def average():
         plt.xticks(iterations)
         plt.grid(True)
         plt.legend()
+       
         plt.savefig('docs/plot/plot_avg_iterations.png')
         plt.show()
         
-        print(f'\n{np.mean(fitness_avg_v01, axis=0)}\n')
-
         print(f'\nA analise do algoritmo e seus resultados podem ser observados em: {readme}')
         print(f'Obs: No VSCode, para melhor visualização do README, usar o comando CTRL + SHIFT + v.\n')
     except Exception as e:
