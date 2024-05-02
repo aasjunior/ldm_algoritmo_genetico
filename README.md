@@ -191,6 +191,11 @@ def version_03(size, n_childrens, n_generations):
 
 <br>
 
+### Analise 
+
+### Conclusão
+
+
 <hr>
 
 ###### Aviso

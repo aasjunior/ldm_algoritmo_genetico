@@ -20,7 +20,7 @@ class GeneticAlgorithm:
         version (str, optional): Uma string de versão para identificar os resultados. Padrão para None.
     """
 
-    def __init__(self, size, n_generations, n_childrens, mutation, fitness, interval, for_max=True, version=None):
+    def __init__(self, size, n_generations, n_childrens, mutation, fitness, interval, for_max=True, version=None, show_plot=True, save_docs=True):
         """
         Initialize the Genetic Algorithm object.
 
@@ -50,6 +50,8 @@ class GeneticAlgorithm:
         self.fitness_min = []
 
         self.results_file_path = f'docs/results_{version}.md' if version else 'docs/results.md'
+        self.show = show_plot
+        self.save_docs = save_docs
 
     def evaluate(self, x, y):
         """
@@ -66,7 +68,7 @@ class GeneticAlgorithm:
 
     def init_population(self):
         """
-        Initializethe population with random individuals.
+        Initialize the population with random individuals.
 
         Returns:
             list: Uma lista de indivíduos, onde cada indivíduo é uma lista contendo [x, y, fitness].
@@ -327,9 +329,11 @@ class GeneticAlgorithm:
         ax.text(best[0], best[1], best[2], f' Melhor indivíduo:\n x={best[0]}, y={best[1]}, fitness={best[2]}', transform=ax.transAxes, verticalalignment='top', color='red')
 
         self.save_plot(f'plot_fitness_v{self.version}')
-        plt.show()
+        
+        if self.show:
+            plt.show()
 
-    def plot_evolution(self, show=True):
+    def plot_evolution(self):
         """
         Plota a evolução temporal das populações e a variação dos valores de fitness médio, máximo e mínimo.
 
@@ -348,9 +352,9 @@ class GeneticAlgorithm:
         """
         plt.figure(num=f'Versão {self.version}')
         generations = range(len(self.fitness_avgs))  # Cria um array de números de geração
-        plt.plot(generations, self.fitness_avgs, label='Média', color='blue')
-        plt.plot(generations, self.fitness_max, label='Máximo', color='green')
-        plt.plot(generations, self.fitness_min, label='Mínimo', color='red')
+        plt.plot(generations, self.fitness_avgs, label='Média', marker='o')
+        plt.plot(generations, self.fitness_max, label='Máximo', marker='o')
+        plt.plot(generations, self.fitness_min, label='Mínimo', marker='o')
         
         plt.ylabel('Fitness')
         plt.xlabel('Geração')
@@ -363,7 +367,7 @@ class GeneticAlgorithm:
 
         self.save_plot(f'plot_evolution_v{self.version}')
 
-        if show:
+        if self.show:
             plt.show()
             
     def plot_results(self, show=True):
@@ -392,7 +396,8 @@ class GeneticAlgorithm:
         self.fitness_max.append(max_fit)
         self.fitness_min.append(min_fit)
 
-        self.save_doc(pos_best, max_fit, min_fit, avg, count_generations)
+        if self.save_docs:
+            self.save_doc(pos_best, max_fit, min_fit, avg, count_generations)
 
     def init_results_file(self):
         """
@@ -491,6 +496,7 @@ class GeneticAlgorithm:
             self.check_individual_best(count_generations)
             count_generations += 1
 
-        print(f'Gerado arquivo com resultados em: {self.results_file_path}\n')
-        self.plot_fitness()
-        self.plot_evolution()
+        if self.save_docs:
+            print(f'Gerado arquivo com resultados em: {self.results_file_path}\n')
+            self.plot_fitness()
+            self.plot_evolution()
