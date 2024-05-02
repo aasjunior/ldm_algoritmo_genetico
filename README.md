@@ -101,16 +101,22 @@ def modulo(x):
 def calc_xi(x):
     return (x * np.sin(np.sqrt(modulo(x))))
 
-def version_01(size, n_childrens, n_generations):
+def version_01(size, n_childrens, n_generations, average_fitness=False):
+    save_docs = not average_fitness
+
     try:
         fitness_v1 = lambda x1, x2: 837.9658 - calc_xi(x1) - calc_xi(x2)
 
-        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-500, 500], fitness=fitness_v1, for_max=False, version='01')
+        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-500, 500], fitness=fitness_v1, for_max=False, version='01', save_docs=save_docs)
         algorithm.init()
+
+        if average_fitness:
+            return np.mean(algorithm.fitness_avgs)
 
     except Exception as e:
         raise f'Erro na execução da versão 01:\n{e}\n'
 ```
+
 ![Plotagem versão 01](src/docs/bckp/plot_fitness_v01.png)
 
 <br>
@@ -135,12 +141,17 @@ $$
 from model.GeneticAlgorithm import GeneticAlgorithm
 import numpy as np
 
-def version_02(size, n_childrens, n_generations):
+def version_02(size, n_childrens, n_generations, average_fitness=False):
+    save_docs = not average_fitness
+
     try:
         fitness_v2 = lambda x, y: 20 + (x**2) + (y**2) - 10 * (np.cos(2*np.pi*x) + np.cos(2*np.pi*y))
 
-        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-5, 5], fitness=fitness_v2, for_max=False, version='02')
+        algorithm = GeneticAlgorithm(size=size, n_childrens=n_childrens, n_generations=n_generations, mutation=1, interval=[-5, 5], fitness=fitness_v2, for_max=False, version='02', save_docs=save_docs)
         algorithm.init()
+
+        if average_fitness:
+            return np.mean(algorithm.fitness_avgs)
 
     except Exception as e:
         raise f'Erro na execução da versão 02:\n{e}\n'
@@ -219,7 +230,7 @@ Realiza dez execuções das versões 01, 02 e 03 do algoritmo genético, retorna
 
 ### Conclusão
 
-Conforme observado nas três versões do algoritmo, a _range_ do intervalo de valores de cada versão implica diretamente na taxa de convergência da população, sendo necessário um número maior de gerações para se alcançar o mais próximo da solução ótima. Sendo assim, com o número de gerações especificado (10), as versões 02 e 03 do algoritmo alcançaram valores mais próximos da solução ótima.
+Conforme observado nas três versões do algoritmo, a __range__ do intervalo de valores de cada versão implica diretamente na taxa de convergência da população, sendo necessário um número maior de gerações para se alcançar o mais próximo da solução ótima. Sendo assim, com o número de gerações especificado (10), as versões 02 e 03 do algoritmo alcançaram valores mais próximos da solução ótima.
 
 <hr>
 

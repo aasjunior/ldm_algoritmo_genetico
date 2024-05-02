@@ -2,7 +2,7 @@ from model.GeneticAlgorithm import GeneticAlgorithm
 import numpy as np
 
 def version_02(size, n_childrens, n_generations, average_fitness=False):
-    save_docs = False if(average_fitness) else True
+    save_docs = not average_fitness
 
     try:
         fitness_v2 = lambda x, y: 20 + (x**2) + (y**2) - 10 * (np.cos(2*np.pi*x) + np.cos(2*np.pi*y))
