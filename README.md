@@ -219,7 +219,7 @@ Realiza dez execuções das versões 01, 02 e 03 do algoritmo genético, retorna
 
 ### Conclusão
 
-Conforme observado nas três versões do algoritmo, a _range_ do intervalo de valores de cada versão implica diretamente na taxa de convergência da população, sendo necessário um número maior de gerações para se alcançar o mais próximo da solução ótima. Sendo assim, com o número de gerações especificado (10), as versões 01 e 02 do algoritmo alcançaram valores mais próximos da solução ótima.
+Conforme observado nas três versões do algoritmo, a _range_ do intervalo de valores de cada versão implica diretamente na taxa de convergência da população, sendo necessário um número maior de gerações para se alcançar o mais próximo da solução ótima. Sendo assim, com o número de gerações especificado (10), as versões 02 e 03 do algoritmo alcançaram valores mais próximos da solução ótima.
 
 <hr>
 
